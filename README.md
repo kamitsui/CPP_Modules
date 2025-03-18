@@ -1,17 +1,38 @@
-Title : Megaphone
-Files to turn in : Makefile, megaphone.cpp
-Turn-in directory : ex00/
-Forbidden functions : None
+# Overview
 
-Just to make sure that everybody is awake, write a program that produces the following output:
-```
-$>./megaphone "shhhhh... I think the students are asleep..."
-SHHHHH... I THINK THE STUDENTS ARE ASLEEP...
-$>./megaphone Damnit " ! " "Sorry students, I thought this thing was off."
-DAMNIT ! SORRY STUDENTS, I THOUGHT THIS THING WAS OFF.
-$>./megaphone
-* LOUD AND UNBEARABLE FEEDBACK NOISE *
-$>
-```
+## Ex00
 
-Solve the exercises in a C++ manner.
+課題名：`Megaphone`
+内容：C++に慣れる　概念　C++らしさを学ぶ
+キーワード：
+```
+```
+[subject.ex00.en.txt](subject.ex00.en.txt)
+
+---
+
+## Ex01
+
+課題名：`My Awesome PhoneBook`
+内容：質の悪い素晴らしい電話帳を作る。（80年代のテクノロジーを再現）
+キーワード：
+```
+テーマ：
+　２つのクラスを実装する（電話帳・連絡先）
+　それぞれインスタンス化する。
+電話帳：
+　最大８件連絡先を保存
+　９番目追加すると一番古い連絡先に置き換えられる。
+　動的割り当ては禁止
+連絡先：
+　クラス内（プライベート）・クラス外（パブリック）
+　起動時は電話帳空
+
+コマンド３つ
+　ADD：新しい連絡先を追加
+　SEARCH：連絡先を検索して表示する
+　EXIT：プログラム終了　連絡先データは消失
+　その他：無視する
+
+```
+[subject.ex01.en.txt](subject.ex01.en.txt)
