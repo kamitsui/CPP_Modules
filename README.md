@@ -35,4 +35,11 @@
 　その他：無視する
 
 ```
+
 [subject.ex01.en.txt](subject.ex01.en.txt)
+
+
+ポイント
+```
+Objectの設計図　データと機能の分離することはOOPの基本原則
+```
