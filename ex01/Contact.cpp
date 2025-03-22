@@ -1,32 +1,20 @@
-// Contact.hpp
-#ifndef CONTACT_HPP
-#define CONTACT_HPP
+// Contact.cpp
+#include "Contact.hpp"
 
-#include <string>
+Contact::Contact() : firstName(""), lastName(""), nickname(""), phoneNumber(""), darkestSecret("") {}
 
-class Contact {
-private:
-    std::string firstName;
-    std::string lastName;
-    std::string nickname;
-    std::string phoneNumber;
-    std::string darkestSecret;
+void Contact::setFirstName(const std::string& firstName) { this->firstName = firstName; }
+void Contact::setLastName(const std::string& lastName) { this->lastName = lastName; }
+void Contact::setNickname(const std::string& nickname) { this->nickname = nickname; }
+void Contact::setPhoneNumber(const std::string& phoneNumber) { this->phoneNumber = phoneNumber; }
+void Contact::setDarkestSecret(const std::string& darkestSecret) { this->darkestSecret = darkestSecret; }
 
-public:
-    Contact();
-    void setFirstName(const std::string& firstName);
-    void setLastName(const std::string& lastName);
-    void setNickname(const std::string& nickname);
-    void setPhoneNumber(const std::string& phoneNumber);
-    void setDarkestSecret(const std::string& darkestSecret);
+std::string Contact::getFirstName() const { return firstName; }
+std::string Contact::getLastName() const { return lastName; }
+std::string Contact::getNickname() const { return nickname; }
+std::string Contact::getPhoneNumber() const { return phoneNumber; }
+std::string Contact::getDarkestSecret() const { return darkestSecret; }
 
-    std::string getFirstName() const;
-    std::string getLastName() const;
-    std::string getNickname() const;
-    std::string getPhoneNumber() const;
-    std::string getDarkestSecret() const;
-
-    bool isEmpty() const;
-};
-
-#endif // CONTACT_HPP
+bool Contact::isEmpty() const {
+    return firstName.empty() && lastName.empty() && nickname.empty() && phoneNumber.empty() && darkestSecret.empty();
+}

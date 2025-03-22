@@ -1,0 +1,3 @@
+Checks: '*, -modernize-*' # disable modernize checks which are not relevant to c++98.
+WarningsAsErrors: '*'
+HeaderFilterRegex: '.*'
