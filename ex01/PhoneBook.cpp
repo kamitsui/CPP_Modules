@@ -1,7 +1,9 @@
 // PhoneBook.cpp
 #include "PhoneBook.hpp"
+#include <cstdlib>
 #include <iomanip>
 #include <iostream>
+#include <limits>
 #include <string>
 
 /**
@@ -54,23 +56,39 @@ void PhoneBook::addContact() {
     contactCount++;
 }
 
-void displayContactRow(int index, const std::string &firstName, const std::string &lastName, const std::string &nickName) {
-    std::cout << std::setw(10) << index << "|" << std::setw(10) << firstName << "|" << std::setw(10) << lastName
-			  << "|" << std::setw(10) << nickName << std::endl;
+void displayContactRow(int index, const std::string &firstName, const std::string &lastName,
+                       const std::string &nickName) {
+    std::cout << std::setw(10) << index << "|" << std::setw(10) << firstName << "|" << std::setw(10) << lastName << "|"
+              << std::setw(10) << nickName << std::endl;
 }
 
 std::string truncateString(const std::string &str, size_t maxLength) {
-	if (str.length() > maxLength) {
-		return str.substr(0, maxLength - 1) + ".";
-	}
-	return str;
+    if (str.length() > maxLength) {
+        return str.substr(0, maxLength - 1) + ".";
+    }
+    return str;
 }
 
-int	getValidIndex() {
-	int	index;
-	bool
-    std::cin >> index;
-    std::cin.ignore();
+int getValidIndex() {
+    int index = -1;
+    bool validInput = false;
+    while (!validInput) {
+        std::cout << "Enter index: ";
+        std::cin >> index;
+        if (std::cin.good()) {
+            validInput = true;
+        } else if (std::cin.eof()) {
+            validInput = true;
+            std::cout << "EOF entered. Exit program.";
+            exit(0);
+        } else {
+            std::cout << "Invalid input. Please enter a number: ";
+            std::cin.clear();
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+        }
+    }
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+    return index;
 }
 
 /**
@@ -86,7 +104,7 @@ void PhoneBook::searchContact() {
         std::string lastName = truncateString(contacts[i].getLastName(), 10);
         std::string nickName = truncateString(contacts[i].getNickName(), 10);
 
-		displayContactRow(i + 1, firstName, lastName, nickName);
+        displayContactRow(i + 1, firstName, lastName, nickName);
     }
 
     std::cout << "Enter index: ";
@@ -102,4 +120,5 @@ void PhoneBook::searchContact() {
     std::cout << "NickName: " << contact.getNickName() << std::endl;
     std::cout << "Phone Number: " << contact.getPhoneNumber() << std::endl;
     std::cout << "Darkest Secret: " << contact.getDarkestSecret() << std::endl;
+    return;
 }
