@@ -6,7 +6,7 @@
 /*   By: kamitsui <kamitsui@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/19 21:20:03 by kamitsui          #+#    #+#             */
-/*   Updated: 2025/03/22 19:09:43 by kamitsui         ###   ########.fr       */
+/*   Updated: 2025/04/09 09:47:10 by kamitsui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,11 +29,11 @@ int main(void) {
 
         if (command == "ADD")
             phoneBook.addContact();
-        else if (command == "SEARCH") {
+        else if (command == "SEARCH")
             phoneBook.searchContact();
-        } else if (command == "EXIT") {
+        else if (command == "EXIT")
             break;
-        } else {
+        else {
             // Ignore other input
         }
     }
