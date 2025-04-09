@@ -54,6 +54,25 @@ void PhoneBook::addContact() {
     contactCount++;
 }
 
+void displayContactRow(int index, const std::string &firstName, const std::string &lastName, const std::string &nickName) {
+    std::cout << std::setw(10) << index << "|" << std::setw(10) << firstName << "|" << std::setw(10) << lastName
+			  << "|" << std::setw(10) << nickName << std::endl;
+}
+
+std::string truncateString(const std::string &str, size_t maxLength) {
+	if (str.length() > maxLength) {
+		return str.substr(0, maxLength - 1) + ".";
+	}
+	return str;
+}
+
+int	getValidIndex() {
+	int	index;
+	bool
+    std::cin >> index;
+    std::cin.ignore();
+}
+
 /**
  * @brief searchContact() : display a specific contact infomation
  *
@@ -63,26 +82,15 @@ void PhoneBook::searchContact() {
               << "|" << std::setw(10) << "NickName" << std::endl;
 
     for (int i = 0; i < contactCount; ++i) {
-        std::string firstName = contacts[i].getFirstName();
-        std::string lastName = contacts[i].getLastName();
-        std::string nickName = contacts[i].getNickName();
+        std::string firstName = truncateString(contacts[i].getFirstName(), 10);
+        std::string lastName = truncateString(contacts[i].getLastName(), 10);
+        std::string nickName = truncateString(contacts[i].getNickName(), 10);
 
-        if (firstName.length() > 10)
-            firstName = firstName.substr(0, 9) + ".";
-        if (lastName.length() > 10)
-            lastName = lastName.substr(0, 9) + ".";
-        if (nickName.length() > 10)
-            nickName = nickName.substr(0, 9) + ".";
-
-        std::cout << std::setw(10) << i + 1 << "|" << std::setw(10) << firstName << "|" << std::setw(10) << lastName
-                  << "|" << std::setw(10) << nickName << std::endl;
+		displayContactRow(i + 1, firstName, lastName, nickName);
     }
 
     std::cout << "Enter index: ";
-    int index;
-    std::cin >> index;
-    std::cin.ignore();
-
+    int index = getValidIndex();
     if (index < 1 || index > contactCount) {
         std::cout << "Invalid index." << std::endl;
         return;
