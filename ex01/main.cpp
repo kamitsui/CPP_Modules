@@ -6,7 +6,7 @@
 /*   By: kamitsui <kamitsui@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/19 21:20:03 by kamitsui          #+#    #+#             */
-/*   Updated: 2025/04/09 09:47:10 by kamitsui         ###   ########.fr       */
+/*   Updated: 2025/04/11 18:29:41 by kamitsui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,8 @@ int main(void) {
 
     while (true) {
         std::cout << "Enter command (ADD, SEARCH, EXIT): ";
-        std::getline(std::cin, command);
+        // std::getline(std::cin, command);
+        command = phoneBook.getInputLine();
 
         if (command == "ADD")
             phoneBook.addContact();
@@ -33,10 +34,8 @@ int main(void) {
             phoneBook.searchContact();
         else if (command == "EXIT")
             break;
-        else {
-            // Ignore other input
-        }
+        else
+            std::cout << "Invalid input." << std::endl;
     }
-
     return (0);
 }

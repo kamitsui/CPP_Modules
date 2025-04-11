@@ -1,4 +1,20 @@
-// PhoneBook.cpp
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   PhoneBook.cpp                                      :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: kamitsui <kamitsui@student.42tokyo.jp>     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/04/11 17:28:24 by kamitsui          #+#    #+#             */
+/*   Updated: 2025/04/11 18:41:47 by kamitsui         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+/**
+ * @file PhoneBook.cpp
+ * @brief PhoneBook
+ */
+
 #include "PhoneBook.hpp"
 #include <cstdlib>
 #include <iomanip>
@@ -11,8 +27,16 @@
  *
  * Initialize a PhoneBook object without contact.
  */
-PhoneBook::PhoneBook() : contactCount(0) {}
+PhoneBook::PhoneBook() : contactCount_(0) {}
 
+std::string PhoneBook::getInputLine() {
+    std::string line;
+    if (!std::getline(std::cin, line)) {
+        std::cout << "\nexit." << std::endl;
+        std::exit(0);
+    }
+    return line;
+}
 /**
  * @brief addContact() : save a new contact
  *
@@ -22,11 +46,11 @@ PhoneBook::PhoneBook() : contactCount(0) {}
  * @note A saved contace can't have empty fields.
  */
 void PhoneBook::addContact() {
-    if (contactCount >= 8) {
+    if (contactCount_ >= 8) {
         for (int i = 0; i < 7; ++i) {
-            contacts[i] = contacts[i + 1];
+            contacts_[i] = contacts_[i + 1];
         }
-        contactCount = 7;
+        contactCount_ = 7;
     }
 
     std::string firstName, lastName, nickName, phoneNumber, darkestSecret;
@@ -47,13 +71,13 @@ void PhoneBook::addContact() {
         return;
     }
 
-    contacts[contactCount].setFirstName(firstName);
-    contacts[contactCount].setLastName(lastName);
-    contacts[contactCount].setNickName(nickName);
-    contacts[contactCount].setPhoneNumber(phoneNumber);
-    contacts[contactCount].setDarkestSecret(darkestSecret);
+    contacts_[contactCount_].setFirstName(firstName);
+    contacts_[contactCount_].setLastName(lastName);
+    contacts_[contactCount_].setNickName(nickName);
+    contacts_[contactCount_].setPhoneNumber(phoneNumber);
+    contacts_[contactCount_].setDarkestSecret(darkestSecret);
 
-    contactCount++;
+    contactCount_++;
 }
 
 void displayContactRow(int index, const std::string &firstName, const std::string &lastName,
@@ -73,18 +97,18 @@ int getValidIndex() {
     int index = -1;
     bool validInput = false;
     while (!validInput) {
-        std::cout << "Enter index: ";
         std::cin >> index;
         if (std::cin.good()) {
             validInput = true;
         } else if (std::cin.eof()) {
             validInput = true;
-            std::cout << "EOF entered. Exit program.";
+            std::cout << "EOF entered. Exit program." << std::endl;
             exit(0);
         } else {
-            std::cout << "Invalid input. Please enter a number: ";
+            std::cout << "Invalid input. Please enter a number: " << std::endl;
             std::cin.clear();
             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+            std::cout << "Enter index: ";
         }
     }
     std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
@@ -99,22 +123,22 @@ void PhoneBook::searchContact() {
     std::cout << std::setw(10) << "Index" << "|" << std::setw(10) << "First Name" << "|" << std::setw(10) << "Last Name"
               << "|" << std::setw(10) << "NickName" << std::endl;
 
-    for (int i = 0; i < contactCount; ++i) {
-        std::string firstName = truncateString(contacts[i].getFirstName(), 10);
-        std::string lastName = truncateString(contacts[i].getLastName(), 10);
-        std::string nickName = truncateString(contacts[i].getNickName(), 10);
+    for (int i = 0; i < contactCount_; ++i) {
+        std::string firstName = truncateString(contacts_[i].getFirstName(), 10);
+        std::string lastName = truncateString(contacts_[i].getLastName(), 10);
+        std::string nickName = truncateString(contacts_[i].getNickName(), 10);
 
         displayContactRow(i + 1, firstName, lastName, nickName);
     }
 
     std::cout << "Enter index: ";
     int index = getValidIndex();
-    if (index < 1 || index > contactCount) {
+    if (index < 1 || index > contactCount_) {
         std::cout << "Invalid index." << std::endl;
         return;
     }
 
-    Contact contact = contacts[index - 1];
+    Contact contact = contacts_[index - 1];
     std::cout << "First Name: " << contact.getFirstName() << std::endl;
     std::cout << "Last Name: " << contact.getLastName() << std::endl;
     std::cout << "NickName: " << contact.getNickName() << std::endl;

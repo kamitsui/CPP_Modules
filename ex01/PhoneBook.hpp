@@ -6,7 +6,7 @@
 /*   By: kamitsui <kamitsui@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/06 06:03:37 by kamitsui          #+#    #+#             */
-/*   Updated: 2025/04/09 23:17:48 by kamitsui         ###   ########.fr       */
+/*   Updated: 2025/04/11 18:17:04 by kamitsui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,8 +34,8 @@
  */
 class PhoneBook {
   private:
-    Contact contacts[8];
-    int contactCount;
+    Contact contacts_[8];
+    int contactCount_;
 
   public:
     /*************************************************
@@ -61,6 +61,8 @@ class PhoneBook {
      *************************************************/
 
     void searchContact();
+
+    std::string getInputLine();
 };
 
 #endif // PHONEBOOK_HPP
