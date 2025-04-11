@@ -6,7 +6,7 @@
 /*   By: kamitsui <kamitsui@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/11 17:28:24 by kamitsui          #+#    #+#             */
-/*   Updated: 2025/04/11 18:41:47 by kamitsui         ###   ########.fr       */
+/*   Updated: 2025/04/11 23:19:45 by kamitsui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,7 @@
 #include <iomanip>
 #include <iostream>
 #include <limits>
+#include <sstream>
 #include <string>
 
 /**
@@ -56,15 +57,15 @@ void PhoneBook::addContact() {
     std::string firstName, lastName, nickName, phoneNumber, darkestSecret;
 
     std::cout << "First Name: ";
-    std::getline(std::cin, firstName);
+    firstName = getInputLine();
     std::cout << "Last Name: ";
-    std::getline(std::cin, lastName);
+    lastName = getInputLine();
     std::cout << "NickName: ";
-    std::getline(std::cin, nickName);
+    nickName = getInputLine();
     std::cout << "Phone Number: ";
-    std::getline(std::cin, phoneNumber);
+    phoneNumber = getInputLine();
     std::cout << "Darkest Secret: ";
-    std::getline(std::cin, darkestSecret);
+    darkestSecret = getInputLine();
 
     if (firstName.empty() || lastName.empty() || nickName.empty() || phoneNumber.empty() || darkestSecret.empty()) {
         std::cout << "All fields must be filled." << std::endl;
@@ -93,33 +94,39 @@ std::string truncateString(const std::string &str, size_t maxLength) {
     return str;
 }
 
-int getValidIndex() {
-    int index = -1;
-    bool validInput = false;
-    while (!validInput) {
-        std::cin >> index;
-        if (std::cin.good()) {
-            validInput = true;
-        } else if (std::cin.eof()) {
-            validInput = true;
-            std::cout << "EOF entered. Exit program." << std::endl;
-            exit(0);
-        } else {
-            std::cout << "Invalid input. Please enter a number: " << std::endl;
-            std::cin.clear();
-            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-            std::cout << "Enter index: ";
-        }
+int PhoneBook::contactSize() { return contactCount_; }
+
+bool getValidIndex(PhoneBook &phoneBook, int &index) {
+    // std::string input = getInputLine();
+    std::string input = phoneBook.getInputLine();
+    if (input.empty())
+        return (false);
+    std::istringstream iss(input);
+    if (!(iss >> index)) {
+        std::cout << "Invalid input. Please enter the numbers." << std::endl;
+        return (false);
     }
-    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-    return index;
+    if (index >= 1 && index <= phoneBook.contactSize()) {
+        // if (index >= 1 && index <= 8) {
+        char remaining;
+        if (iss >> remaining) {
+            std::cout << "Warning: Number contains additional characters" << std::endl;
+            return (false);
+        }
+        return (true);
+    } else {
+        // std::cout << "Invalid index. Please input (1-" << 8 << ")" << std::endl;
+        std::cout << "Invalid index. Please input (1-" << phoneBook.contactSize() << ")" << std::endl;
+        return (false);
+    }
+    return (index);
 }
 
 /**
  * @brief searchContact() : display a specific contact infomation
  *
  */
-void PhoneBook::searchContact() {
+void PhoneBook::searchContact(PhoneBook &phoneBook) {
     std::cout << std::setw(10) << "Index" << "|" << std::setw(10) << "First Name" << "|" << std::setw(10) << "Last Name"
               << "|" << std::setw(10) << "NickName" << std::endl;
 
@@ -132,12 +139,11 @@ void PhoneBook::searchContact() {
     }
 
     std::cout << "Enter index: ";
-    int index = getValidIndex();
-    if (index < 1 || index > contactCount_) {
-        std::cout << "Invalid index." << std::endl;
+    int index;
+    if (getValidIndex(phoneBook, index) != true)
         return;
-    }
 
+    // displayContact(contacts_[index - 1]);
     Contact contact = contacts_[index - 1];
     std::cout << "First Name: " << contact.getFirstName() << std::endl;
     std::cout << "Last Name: " << contact.getLastName() << std::endl;

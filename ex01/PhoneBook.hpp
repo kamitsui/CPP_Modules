@@ -6,7 +6,7 @@
 /*   By: kamitsui <kamitsui@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/06 06:03:37 by kamitsui          #+#    #+#             */
-/*   Updated: 2025/04/11 18:17:04 by kamitsui         ###   ########.fr       */
+/*   Updated: 2025/04/11 23:19:25 by kamitsui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,7 +60,9 @@ class PhoneBook {
      *
      *************************************************/
 
-    void searchContact();
+    void searchContact(PhoneBook &phoneBook);
+    // bool getValidIndex(PhoneBook &phoneBook, int &index);
+    int contactSize();
 
     std::string getInputLine();
 };
