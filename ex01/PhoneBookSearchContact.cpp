@@ -6,7 +6,7 @@
 /*   By: kamitsui <kamitsui@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/12 13:04:39 by kamitsui          #+#    #+#             */
-/*   Updated: 2025/04/12 14:10:00 by kamitsui         ###   ########.fr       */
+/*   Updated: 2025/04/12 21:14:26 by kamitsui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@
  * @return The original string if it's within the limit, or a truncated
  * string ending with a period if it exceeds the limit.
  */
-std::string PhoneBook::truncateString(const std::string &str, size_t maxLength) {
+std::string PhoneBook::truncateString(const std::string &str, size_t maxLength) const {
     if (str.length() > maxLength) {
         return str.substr(0, maxLength - 1) + ".";
     }
@@ -37,7 +37,7 @@ std::string PhoneBook::truncateString(const std::string &str, size_t maxLength) 
  * Print a table showing the index, first name, last name, and nickname
  * of each contact currently stored.
  */
-void PhoneBook::displaySavedContacts() {
+void PhoneBook::displaySavedContacts() const {
     // Display header
     std::cout << std::setw(10) << "Index" << "|" << std::setw(10) << "First Name" << "|" << std::setw(10) << "Last Name"
               << "|" << std::setw(10) << "NickName" << std::endl;
@@ -61,7 +61,7 @@ void PhoneBook::displaySavedContacts() {
  * @param index Stores the valid index if input is correct.
  * @return True if a valid index is entered, false otherwise.
  */
-bool PhoneBook::getValidIndex(int &index) {
+bool PhoneBook::getValidIndex(int &index) const {
     std::string input = getInputLine();
     if (input.empty())
         return (false);
@@ -90,7 +90,7 @@ bool PhoneBook::getValidIndex(int &index) {
  * of the provided contact.
  * @param contact A reference to the Contact object to display.
  */
-void PhoneBook::displayContactInfo(Contact &contact) {
+void PhoneBook::displayContactInfo(const Contact &contact) const {
     std::cout << "First Name: " << contact.getFirstName() << std::endl;
     std::cout << "Last Name: " << contact.getLastName() << std::endl;
     std::cout << "NickName: " << contact.getNickName() << std::endl;
@@ -104,7 +104,7 @@ void PhoneBook::displayContactInfo(Contact &contact) {
  * Prompts the user for a contact index and displays the corresponding details
  * if a valid index is provided.
  */
-void PhoneBook::searchContact() {
+void PhoneBook::searchContact() const {
     if (contactCount_ < 1) {
         std::cout << "No contact information registered." << std::endl;
         return;

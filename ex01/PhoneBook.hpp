@@ -6,7 +6,7 @@
 /*   By: kamitsui <kamitsui@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/06 06:03:37 by kamitsui          #+#    #+#             */
-/*   Updated: 2025/04/12 14:29:53 by kamitsui         ###   ########.fr       */
+/*   Updated: 2025/04/12 22:00:38 by kamitsui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,14 +46,14 @@ class PhoneBook {
   public:
     PhoneBook();
     void addContact();
-    void searchContact();
-    std::string getInputLine();
+    void searchContact() const;
+    std::string getInputLine() const;
 
   private:
-    void displaySavedContacts();
-    std::string truncateString(const std::string &str, size_t maxLength);
-    bool getValidIndex(int &index);
-    void displayContactInfo(Contact &contact);
+    void displaySavedContacts() const;
+    std::string truncateString(const std::string &str, size_t maxLength) const;
+    bool getValidIndex(int &index) const;
+    void displayContactInfo(const Contact &contact) const;
 };
 
 #endif // PHONEBOOK_HPP

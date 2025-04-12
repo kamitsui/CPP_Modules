@@ -6,7 +6,7 @@
 /*   By: kamitsui <kamitsui@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/11 17:28:24 by kamitsui          #+#    #+#             */
-/*   Updated: 2025/04/12 14:11:57 by kamitsui         ###   ########.fr       */
+/*   Updated: 2025/04/12 21:56:33 by kamitsui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ PhoneBook::PhoneBook() : contactCount_(0) {}
  *
  * @return The line of text read from standard input.
  */
-std::string PhoneBook::getInputLine() {
+std::string PhoneBook::getInputLine() const {
     std::string line;
     if (!std::getline(std::cin, line)) {
         std::cout << "\nexit." << std::endl;
