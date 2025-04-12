@@ -30,6 +30,8 @@ C言語の用に標準ライブラリなどの関数を再実装するわけで�
 
 This documentation provides details about the code structure and functionality.
 
+* [Memo](memo.md)
+
 ## Resources
 
 - Subject.pdf 

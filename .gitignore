@@ -37,5 +37,10 @@
 !*.gif
 !*.mov
 
+# npm dependency files for Node.js
+!package-lock.json
+!package.json
+
 # ignore files & direcrories
 html
+node_modules
