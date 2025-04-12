@@ -6,10 +6,11 @@ if [[ ${yn} == "y" ]]; then
 	doxygen Doxyfile
 fi
 
-read -p "Staticrypt (y/n): " yn
-if [[ ${yn} == "y" ]]; then
-	npx staticrypt ${DIR_HTML}/ -r -d ${DIR_HTML}
-fi
+# Disable in local main branch
+#read -p "Staticrypt (y/n): " yn
+#if [[ ${yn} == "y" ]]; then
+#	npx staticrypt ${DIR_HTML}/ -r -d ${DIR_HTML}
+#fi
 
 read -p "Preview (y/n): " yn
 if [[ ${yn} == "y" ]]; then

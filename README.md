@@ -53,6 +53,9 @@ Objectの設計図　データと機能の分離することはOOPの基本原�
 課題名：`The Job Of Your Dreams`
 内容：
 
+@note
+Not try.
+
 ---
 
 ## Project Links

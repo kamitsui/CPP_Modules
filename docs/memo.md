@@ -28,3 +28,7 @@ npx staticrypt html/* -r -d html
 # On gh-pages branch
 npx staticrypt * -r -d .
 ```
+
+## URL
+
+[npmjs.com](https://www.npmjs.com/package/staticrypt/v/2.2.1)
