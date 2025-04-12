@@ -6,7 +6,7 @@
 /*   By: kamitsui <kamitsui@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/06 06:03:37 by kamitsui          #+#    #+#             */
-/*   Updated: 2025/04/12 13:29:42 by kamitsui         ###   ########.fr       */
+/*   Updated: 2025/04/12 14:29:53 by kamitsui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
  * [ ] Copy constructor
  * [ ] Copy assignment operator
  * [ ] Destructor
- * [-] Other : set***(), get***(), isEmpty()
+ * [-] Other : Setter:addContact(), Getter:searchContact(), ....
  */
 
 #ifndef PHONEBOOK_HPP
@@ -32,7 +32,11 @@
 #include <sstream>
 
 /**
- * @brief
+ * @brief Defines the PhoneBook class.
+ *
+ * The PhoneBook class manages a collection of contacts, allowing users to
+ * add, search for, and display contact information. It has a fixed capacity
+ * of 8 contacts.
  */
 class PhoneBook {
   private:
@@ -40,45 +44,12 @@ class PhoneBook {
     int contactCount_;
 
   public:
-    /*************************************************
-     *
-     * Default Constructor
-     *
-     *************************************************/
-
     PhoneBook();
-
-    /*************************************************
-     *
-     * Setter Functions : Operate contact information.
-     *
-     *************************************************/
-
     void addContact();
-
-    /*************************************************
-     *
-     * Getter Functions : Only refer the information.
-     *
-     *************************************************/
-
     void searchContact();
-
-    /*************************************************
-     *
-     * Other Functions : input string with std::cin.
-     *
-     *************************************************/
-
     std::string getInputLine();
 
   private:
-    /*************************************************
-     *
-     * Helper Functions : searchContact function.
-     *
-     *************************************************/
-
     void displaySavedContacts();
     std::string truncateString(const std::string &str, size_t maxLength);
     bool getValidIndex(int &index);

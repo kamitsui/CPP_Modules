@@ -6,18 +6,17 @@
 /*   By: kamitsui <kamitsui@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/19 21:20:03 by kamitsui          #+#    #+#             */
-/*   Updated: 2025/04/12 12:31:17 by kamitsui         ###   ########.fr       */
+/*   Updated: 2025/04/12 14:20:09 by kamitsui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "PhoneBook.hpp"
-#include <iostream>
-#include <string>
 
 /**
- * @brief My Awesome PhoneBook
+ * @brief Main entry point of the Awesome Phone Book application.
  *
- * @return 0:success
+ * This function runs the main loop, prompting the user for commands
+ * (ADD, SEARCH, EXIT) and executing the corresponding PhoneBook operations.
  */
 int main(void) {
     PhoneBook phoneBook;
@@ -25,14 +24,12 @@ int main(void) {
 
     while (true) {
         std::cout << "Enter command (ADD, SEARCH, EXIT): ";
-        // std::getline(std::cin, command);
         command = phoneBook.getInputLine();
 
         if (command == "ADD")
             phoneBook.addContact();
         else if (command == "SEARCH")
             phoneBook.searchContact();
-        // phoneBook.searchContact(phoneBook);
         else if (command == "EXIT")
             break;
         else

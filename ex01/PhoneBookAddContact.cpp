@@ -6,19 +6,20 @@
 /*   By: kamitsui <kamitsui@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/12 13:02:55 by kamitsui          #+#    #+#             */
-/*   Updated: 2025/04/12 13:05:55 by kamitsui         ###   ########.fr       */
+/*   Updated: 2025/04/12 14:14:18 by kamitsui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "PhoneBook.hpp"
 
 /**
- * @brief addContact() : save a new contact
+ * @brief Adds a new contact to the phone book.
  *
- * The contact fields are 5 fields as below,
- * firstName, lastName, nickName, phoneNumber, darkest Secret.
- *
- * @note A saved contace can't have empty fields.
+ * Prompts the user for contact details and adds them to the stored contacts.
+ * If the phone book is full (8 contacts), it shifts the existing contacts
+ * to make space for the new one, effectively overwriting the oldest contact.
+ * All fields (first name, last name, nickname, phone number, darkest secret)
+ * are mandatory.
  */
 void PhoneBook::addContact() {
     if (contactCount_ >= 8) {
