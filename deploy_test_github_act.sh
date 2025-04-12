@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # dummy token
 export ACTIONS_RUNTIME_TOKEN=fake-token
 export GITHUB_TOKEN=fake-token

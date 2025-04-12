@@ -1,7 +1,10 @@
 #!/bin/bash
+DIR_HTML='html'
+
 doxygen Doxyfile
 
-# Web browser
-#firefox html/index.html	# Linux
-#open html/index.html	# macOS
-#start html/index.html	# Windows
+read -p "Preview (y/n): " yn
+if [[ ${yn} == "y" ]]; then
+	cd ${DIR_HTML}
+	python3 -m http.server 8000
+fi

@@ -6,8 +6,8 @@
 内容：C++に慣れる　概念　C++らしさを学ぶ
 キーワード：
 ```
+文字列を大文字に変えて出力する。(std::toupper)
 ```
-[subject.ex00.en.txt](subject.ex00.en.txt)
 
 ---
 
@@ -36,10 +36,23 @@
 
 ```
 
-[subject.ex01.en.txt](subject.ex01.en.txt)
-
 
 ポイント
 ```
 Objectの設計図　データと機能の分離することはOOPの基本原則
 ```
+
+---
+
+## Ex02
+
+課題名：`The Job Of Your Dreams`
+内容：
+
+---
+
+## Project Links
+
+* [Intra - CPP00](https://projects.intra.42.fr/cpp-module-00/kamitsui)
+* [GitHub - CPP00](https://github.com/kamitsui/cpp00)
+* [Doxygen Documents]()
