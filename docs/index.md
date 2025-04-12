@@ -33,5 +33,5 @@ This documentation provides details about the code structure and functionality.
 ## Resources
 
 - Subject.pdf 
-<a href="subject.en.pdf" target="_blank">en</a>/
-<a href="subject.ja.pdf" target="_blank">ja</a>
+[en](https://drive.google.com/file/d/1bHgO-yX59L8gTJXajzJ-n9pYi3qowqCV/view?usp=drive_link)/
+[ja](https://drive.google.com/file/d/19VoENEpsWAJKqaQf1aPqD8vSSXvwqrdQ/view?usp=drive_link)
