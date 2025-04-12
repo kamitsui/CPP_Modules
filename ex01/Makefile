@@ -6,7 +6,7 @@
 #    By: kamitsui <kamitsui@student.42tokyo.jp>     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/03/15 19:38:29 by kamitsui          #+#    #+#              #
-#    Updated: 2025/03/21 18:58:57 by kamitsui         ###   ########.fr        #
+#    Updated: 2025/04/12 13:05:24 by kamitsui         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,6 +18,8 @@ DEP_DIR = .deps
 SRCS = \
 	   main.cpp \
 	   PhoneBook.cpp \
+	   PhoneBookAddContact.cpp \
+	   PhoneBookSearchContact.cpp \
 	   Contact.cpp
 
 # Object files and dependency files
