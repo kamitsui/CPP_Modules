@@ -6,7 +6,7 @@
 /*   By: kamitsui <kamitsui@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/12 13:04:39 by kamitsui          #+#    #+#             */
-/*   Updated: 2025/04/12 13:09:01 by kamitsui         ###   ########.fr       */
+/*   Updated: 2025/04/12 13:34:36 by kamitsui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,22 @@ std::string PhoneBook::truncateString(const std::string &str, size_t maxLength) 
         return str.substr(0, maxLength - 1) + ".";
     }
     return str;
+}
+
+void PhoneBook::displaySavedContacts() {
+    // Display header
+    std::cout << std::setw(10) << "Index" << "|" << std::setw(10) << "First Name" << "|" << std::setw(10) << "Last Name"
+              << "|" << std::setw(10) << "NickName" << std::endl;
+
+    // Display contacts
+    for (int i = 0; i < contactCount_; ++i) {
+        std::string firstName = truncateString(contacts_[i].getFirstName(), 10);
+        std::string lastName = truncateString(contacts_[i].getLastName(), 10);
+        std::string nickName = truncateString(contacts_[i].getNickName(), 10);
+
+        std::cout << std::setw(10) << i + 1 << "|" << std::setw(10) << firstName << "|" << std::setw(10) << lastName
+                  << "|" << std::setw(10) << nickName << std::endl;
+    }
 }
 
 bool PhoneBook::getValidIndex(int &index) {
@@ -34,31 +50,11 @@ bool PhoneBook::getValidIndex(int &index) {
             std::cout << "Warning: Number contains additional characters" << std::endl;
             return (false);
         }
-        return (true);
     } else {
         std::cout << "Invalid index. Please input (1-" << contactCount_ << ")" << std::endl;
         return (false);
     }
-    return (index);
-}
-
-void displayContactRow(int index, const std::string &firstName, const std::string &lastName,
-                       const std::string &nickName) {
-    std::cout << std::setw(10) << index << "|" << std::setw(10) << firstName << "|" << std::setw(10) << lastName << "|"
-              << std::setw(10) << nickName << std::endl;
-}
-
-void PhoneBook::displaySavedContacts() {
-    std::cout << std::setw(10) << "Index" << "|" << std::setw(10) << "First Name" << "|" << std::setw(10) << "Last Name"
-              << "|" << std::setw(10) << "NickName" << std::endl;
-
-    for (int i = 0; i < contactCount_; ++i) {
-        std::string firstName = truncateString(contacts_[i].getFirstName(), 10);
-        std::string lastName = truncateString(contacts_[i].getLastName(), 10);
-        std::string nickName = truncateString(contacts_[i].getNickName(), 10);
-
-        displayContactRow(i + 1, firstName, lastName, nickName);
-    }
+    return (true);
 }
 
 void PhoneBook::displayContactInfo(Contact &contact) {
@@ -74,6 +70,11 @@ void PhoneBook::displayContactInfo(Contact &contact) {
  *
  */
 void PhoneBook::searchContact() {
+    if (contactCount_ < 1) {
+        std::cout << "No contact information registered." << std::endl;
+        return;
+    }
+
     displaySavedContacts();
     std::cout << "Enter index: ";
     int index;

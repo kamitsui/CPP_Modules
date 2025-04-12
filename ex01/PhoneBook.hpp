@@ -6,7 +6,7 @@
 /*   By: kamitsui <kamitsui@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/06 06:03:37 by kamitsui          #+#    #+#             */
-/*   Updated: 2025/04/12 13:09:44 by kamitsui         ###   ########.fr       */
+/*   Updated: 2025/04/12 13:29:42 by kamitsui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,8 +80,8 @@ class PhoneBook {
      *************************************************/
 
     void displaySavedContacts();
-    bool getValidIndex(int &index);
     std::string truncateString(const std::string &str, size_t maxLength);
+    bool getValidIndex(int &index);
     void displayContactInfo(Contact &contact);
 };
 
