@@ -6,7 +6,7 @@
 /*   By: kamitsui <kamitsui@student.42tokyo.jp>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/19 21:20:03 by kamitsui          #+#    #+#             */
-/*   Updated: 2025/04/13 01:27:11 by kamitsui         ###   ########.fr       */
+/*   Updated: 2025/04/13 01:32:29 by kamitsui         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int main(void) {
 
     while (true) {
         std::cout << "Enter command (ADD, SEARCH, EXIT): ";
-        command = getInputLine();
+        command = phoneBook.getInputLine();
 
         if (command == "ADD")
             phoneBook.addContact();
