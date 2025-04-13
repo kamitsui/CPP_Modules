@@ -16,20 +16,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          submodules: false  # don't clone submodules here
-            #submodules: true  # Ensure submodules are checked out
-
-            #- name: Configure Git Credentials
-            #  env:
-            #    PAT: ${{ secrets.GH_PAT }} # PAT subcribed in Secrets
-            #  run: |
-            #    git config --global user.email "kamitsui@student.42tokyo.jp" # 適切なメールアドレスに置き換える
-            #    git config --global user.name "kamitsui"           # 適切な名前に置き換える
-            #    git config --global credential.helper store
-            #    echo "https://github.com" >> $GITHUB_WORKSPACE/.git-credentials
-            #    echo "username=$GITHUB_ACTOR" >> $GITHUB_WORKSPACE/.git-credentials
-            #    echo "password=$PAT" >> $GITHUB_WORKSPACE/.git-credentials
-            #    chmod 0400 $GITHUB_WORKSPACE/.git-credentials
+          submodules: false  # don't clone submodules, because submodules is private repository
 
       - name: Clone Private Repository with using PAT
         env:
@@ -37,7 +24,7 @@ jobs:
         run: |
           git clone https://x-access-token:${{ secrets.GH_PAT }}@github.com/kamitsui/cpp00.git
           git clone https://x-access-token:${{ secrets.GH_PAT }}@github.com/kamitsui/cpp_getting_start.git
-          git clone https://x-access-token:${{ secrets.GH_PAT }}@github.com/kamitsui/doxygen-awesome-css.git
+          git clone https://github.com/jothepro/doxygen-awesome-css.git
       
       - name: Use Cloned Repo
         run: |
