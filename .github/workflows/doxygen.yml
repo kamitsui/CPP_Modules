@@ -21,7 +21,7 @@ jobs:
 
       - name: Initialize and clone private submodule
         env:
-          PAT: ${{ secrets.ACCESS_TOKEN }} # PAT subcribed in Secrets
+          PAT: ${{ secrets.GH_PAT }} # PAT subcribed in Secrets
         run: |
           git config --global url."https://github.com/".insteadOf "git@github.com:"
           git submodule update --init --recursive
