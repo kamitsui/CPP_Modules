@@ -4,3 +4,6 @@
 [submodule "cpp00"]
 	path = cpp00
 	url = git@github.com:kamitsui/cpp00.git
+[submodule "cpp_getting_start"]
+	path = cpp_getting_start
+	url = git@github.com:kamitsui/cpp_getting_start.git
