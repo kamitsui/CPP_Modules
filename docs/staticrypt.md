@@ -1,4 +1,4 @@
-## staticrypt
+# staticrypt
 
 htmlファイルにJavaScriptコードを埋め込み、パスワード保護する簡易認証。
 
