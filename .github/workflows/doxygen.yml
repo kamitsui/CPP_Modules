@@ -16,15 +16,27 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          submodules: true  # Ensure submodules are checked out
+          submodules: false  # don't clone submodules here
+            #submodules: true  # Ensure submodules are checked out
+
+      - name: Initialize and clone private submodule
+        env:
+          PAT: ${{ secrets.ACCESS_TOKEN }} # PAT subcribed in Secrets
+        run: |
+          git config --global url."https://github.com/".insteadOf "git@github.com:"
+          git submodule update --init --recursive
+          git config --global --unset url.https://github.com/.insteadOf
+          git submodule sync --recursive
+          git submodule foreach 'git config --local url.$repo.insteadOf git@github.com: https://github.com/'
+          git submodule foreach 'git config --local --unset url.$repo.insteadOf'
 
       - name: Install Doxygen
         run: |
           sudo apt update
           sudo apt-get install -y doxygen graphviz rsync
 
-      - name: Configure Doxygen with Doxygen Awesome CSS
-        run: |
+          #- name: Configure Doxygen with Doxygen Awesome CSS
+          #  run: |
           # Ensure the CSS theme is properly linked
           #cp docs/doxygen-awesome-css/doxygen-awesome.css .
           #cp docs/doxygen-awesome-css/doxygen-awesome-sidebar-only.css .
@@ -39,12 +51,6 @@ jobs:
 
       - name: Generate Documentation
         run: doxygen Doxyfile
-
-      - name: Call GitHub API
-        env:
-          GH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        run: |
-          gh api /repos/OWNER/PRIVATE_REPO/issues -H "Accept: application/vnd.github+json" -H "Authorization: Bearer $GH_TOKEN"
 
       - name: Deploy to GitHub Pages
         if: github.actor != 'nektos/act' # Skip deployment locally
