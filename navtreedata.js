@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "CPP00", "index.html", [
+  [ "CPP Modules", "index.html", [
     [ "MainPage", "index.html", "index" ],
     [ "Overview", "md_cpp00_2README.html", [
       [ "Ex00", "md_cpp00_2README.html#autotoc_md1", null ],
@@ -40,29 +40,36 @@ var NAVTREE =
       [ "Exercises", "md_docs_2cpp01.html#autotoc_md12", null ],
       [ "Resources", "md_docs_2cpp01.html#autotoc_md14", null ]
     ] ],
+    [ "CPP0x_Module", "md_docs_2cpp0x.html", [
+      [ "Exercises", "md_docs_2cpp0x.html#autotoc_md16", null ],
+      [ "Resources", "md_docs_2cpp0x.html#autotoc_md18", null ]
+    ] ],
     [ "staticrypt", "md_docs_2staticrypt.html", [
-      [ "URL", "md_docs_2staticrypt.html#autotoc_md19", null ]
+      [ "URL", "md_docs_2staticrypt.html#autotoc_md23", null ]
     ] ],
     [ "EX00 Megaphone", "md_docs_2subjects_2cpp00__ex00.html", null ],
     [ "EX01 My Awesome PhoneBook", "md_docs_2subjects_2cpp00__ex01.html", [
-      [ "Subject", "md_docs_2subjects_2cpp00__ex01.html#autotoc_md22", null ]
+      [ "Subject", "md_docs_2subjects_2cpp00__ex01.html#autotoc_md26", null ]
     ] ],
     [ "EX02 The Job Of Your Dreams", "md_docs_2subjects_2cpp00__ex02.html", [
-      [ "Subject", "md_docs_2subjects_2cpp00__ex02.html#autotoc_md24", null ]
+      [ "Subject", "md_docs_2subjects_2cpp00__ex02.html#autotoc_md28", null ]
     ] ],
     [ "EX00 BraiiiiiiinnnzzzZ", "md_docs_2subjects_2cpp01__ex00.html", [
-      [ "Subject", "md_docs_2subjects_2cpp01__ex00.html#autotoc_md26", null ]
+      [ "Subject", "md_docs_2subjects_2cpp01__ex00.html#autotoc_md30", null ]
     ] ],
-    [ "Classes", "annotated.html", [
-      [ "Class List", "annotated.html", "annotated_dup" ],
-      [ "Class Index", "classes.html", null ],
-      [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
-        [ "Functions", "functions_func.html", null ]
+    [ "EX01 Moar brainz!", "md_docs_2subjects_2cpp01__ex01.html", [
+      [ "Subject", "md_docs_2subjects_2cpp01__ex01.html#autotoc_md32", null ]
+    ] ],
+    [ "クラス", "annotated.html", [
+      [ "クラス一覧", "annotated.html", "annotated_dup" ],
+      [ "クラス索引", "classes.html", null ],
+      [ "クラスメンバ", "functions.html", [
+        [ "全て", "functions.html", null ],
+        [ "関数", "functions_func.html", null ]
       ] ]
     ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ]
+    [ "ファイル", "files.html", [
+      [ "ファイル一覧", "files.html", "files_dup" ]
     ] ]
   ] ]
 ];
@@ -72,5 +79,5 @@ var NAVTREEINDEX =
 "19920104__091532_8log_source.html"
 ];
 
-var SYNCONMSG = 'click to disable panel synchronisation';
-var SYNCOFFMSG = 'click to enable panel synchronisation';
+var SYNCONMSG = 'クリックで同期表示が無効になります';
+var SYNCOFFMSG = 'クリックで同期表示が有効になります';
