@@ -7,5 +7,5 @@ var searchData=
   ['setnickname_4',['setNickName',['../classContact.html#a40ef6a9a6faf64cd3339dff4b998c98e',1,'Contact']]],
   ['setphonenumber_5',['setPhoneNumber',['../classContact.html#a651b86be779fc338618109bfc39784b7',1,'Contact']]],
   ['staticrypt_6',['staticrypt',['../md_docs_2staticrypt.html',1,'']]],
-  ['subject_7',['subject',['../md_docs_2subjects_2cpp00__ex01.html#autotoc_md22',1,'Subject'],['../md_docs_2subjects_2cpp00__ex02.html#autotoc_md24',1,'Subject']]]
+  ['subject_7',['subject',['../md_docs_2subjects_2cpp00__ex01.html#autotoc_md22',1,'Subject'],['../md_docs_2subjects_2cpp00__ex02.html#autotoc_md24',1,'Subject'],['../md_docs_2subjects_2cpp01__ex00.html#autotoc_md26',1,'Subject']]]
 ];

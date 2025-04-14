@@ -1,6 +1,7 @@
 var NAVTREEINDEX0 =
 {
-"Account_8hpp_source.html":[10,0,0,2,0],
+"19920104__091532_8log_source.html":[10,0,0,2,0],
+"Account_8hpp_source.html":[10,0,0,2,1],
 "Contact_8cpp.html":[10,0,0,1,0],
 "Contact_8cpp_source.html":[10,0,0,1,0],
 "Contact_8hpp.html":[10,0,0,1,1],
@@ -66,7 +67,8 @@ var NAVTREEINDEX0 =
 "md_docs_2subjects_2cpp00__ex02.html":[7],
 "md_docs_2subjects_2cpp00__ex02.html#autotoc_md24":[7,0],
 "md_docs_2subjects_2cpp01__ex00.html":[8],
+"md_docs_2subjects_2cpp01__ex00.html#autotoc_md26":[8,0],
 "megaphone_8cpp_source.html":[10,0,0,0,1],
 "pages.html":[],
-"tests_8cpp_source.html":[10,0,0,2,1]
+"tests_8cpp_source.html":[10,0,0,2,2]
 };

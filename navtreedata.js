@@ -50,7 +50,9 @@ var NAVTREE =
     [ "EX02 The Job Of Your Dreams", "md_docs_2subjects_2cpp00__ex02.html", [
       [ "Subject", "md_docs_2subjects_2cpp00__ex02.html#autotoc_md24", null ]
     ] ],
-    [ "EX00 BraiiiiiiinnnzzzZ", "md_docs_2subjects_2cpp01__ex00.html", null ],
+    [ "EX00 BraiiiiiiinnnzzzZ", "md_docs_2subjects_2cpp01__ex00.html", [
+      [ "Subject", "md_docs_2subjects_2cpp01__ex00.html#autotoc_md26", null ]
+    ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
@@ -67,7 +69,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"Account_8hpp_source.html"
+"19920104__091532_8log_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
