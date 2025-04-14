@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CPP00: EX00 Megaphone</title>
+<title>CPP00: EX00 BraiiiiiiinnnzzzZ</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,7 +64,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(document).ready(function(){initNavTree('md_docs_2subjects_2cpp00__ex00.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('md_docs_2subjects_2cpp01__ex00.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -90,21 +90,29 @@ $(document).ready(function(){initNavTree('md_docs_2subjects_2cpp00__ex00.html','
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">EX00 Megaphone</div></div>
+  <div class="headertitle"><div class="title">EX00 BraiiiiiiinnnzzzZ</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="autotoc_md20"></a> Title : Megaphone</p>
-<p>Files to turn in : Makefile, <a class="el" href="megaphone_8cpp_source.html">megaphone.cpp</a></p>
+<div class="textblock"><p><a class="anchor" id="autotoc_md25"></a> Title : BraiiiiiiinnnzzzZ</p>
 <p>Turn-in directory : ex00/</p>
+<p>Files to turn in : Makefile, <a class="el" href="main_8cpp_source.html">main.cpp</a>, Zombie.{h, hpp}, Zombie.cpp, newZombie.cpp, randomChump.cpp</p>
 <p>Forbidden functions : None</p>
-<p>Just to make sure that everybody is awake, write a program that produces the following output: </p><div class="fragment"><div class="line">$&gt;./megaphone &quot;shhhhh... I think the students are asleep...&quot;</div>
-<div class="line">SHHHHH... I THINK THE STUDENTS ARE ASLEEP...</div>
-<div class="line">$&gt;./megaphone Damnit &quot; ! &quot; &quot;Sorry students, I thought this thing was off.&quot;</div>
-<div class="line">DAMNIT ! SORRY STUDENTS, I THOUGHT THIS THING WAS OFF.</div>
-<div class="line">$&gt;./megaphone</div>
-<div class="line">* LOUD AND UNBEARABLE FEEDBACK NOISE *</div>
-<div class="line">$&gt;</div>
-</div><!-- fragment --><p>Solve the exercises in a C++ manner. </p>
+<p>First, implement a Zombie class. It has a private string attribute name. Add a member function void announce( void ); to the Zombie class. Zombies announce themselves as follows:</p>
+<p>&lt;name&gt;: BraiiiiiiinnnzzzZ...</p>
+<p>Do not print the angle brackets (&lt; and &gt;). For a zombie named Foo, the message would be:</p>
+<p>Foo: BraiiiiiiinnnzzzZ...</p>
+<p>Then, implement the following two functions:</p>
+<ul>
+<li><code>Zombie* newZombie( std::string name );</code> <blockquote class="doxtable">
+<p>&zwj;This function creates a zombie, names it, and returns it so you can use it outside of the function scope. </p>
+</blockquote>
+</li>
+<li><code>void randomChump( std::string name );</code> <blockquote class="doxtable">
+<p>&zwj;This function creates a zombie, names it, and makes it announce itself. </p>
+</blockquote>
+Now, what is the actual point of the exercise? You have to determine in which case it is better to allocate zombies on the stack or the heap.</li>
+</ul>
+<p>Zombies must be destroyed when you no longer need them. The destructor must print a message with the name of the zombie for debugging purposes. </p>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->
 </div><!-- doc-content -->

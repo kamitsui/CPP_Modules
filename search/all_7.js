@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['learning_0',['Other Learning',['../index.html#autotoc_md13',1,'']]],
-  ['links_1',['Project Links',['../md_cpp00_2README.html#autotoc_md7',1,'']]]
+  ['job_20of_20your_20dreams_0',['EX02 The Job Of Your Dreams',['../md_docs_2subjects_2cpp00__ex02.html',1,'']]]
 ];

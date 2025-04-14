@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['mainpage_0',['MainPage',['../index.html',1,'']]],
-  ['megaphone_1',['EX00 Megaphone',['../md_docs_2subjects_2cpp00__ex00.html',1,'']]],
-  ['my_20awesome_20phonebook_2',['EX01 My Awesome PhoneBook',['../md_docs_2subjects_2cpp00__ex01.html',1,'']]]
+  ['job_20of_20your_20dreams_0',['EX02 The Job Of Your Dreams',['../md_docs_2subjects_2cpp00__ex02.html',1,'']]]
 ];

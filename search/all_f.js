@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['your_20dreams_0',['EX02 The Job Of Your Dreams',['../md_docs_2subjects_2cpp00__ex02.html',1,'']]]
+  ['url_0',['URL',['../md_docs_2staticrypt.html#autotoc_md19',1,'']]]
 ];

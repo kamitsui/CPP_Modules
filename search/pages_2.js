@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['dreams_0',['EX02 The Job Of Your Dreams',['../md_docs_2subjects_2cpp00__ex02.html',1,'']]]
+  ['cpp00_5fmodule_0',['CPP00_Module',['../md_docs_2cpp00.html',1,'']]],
+  ['cpp01_5fmodule_1',['CPP01_Module',['../md_docs_2cpp01.html',1,'']]]
 ];

@@ -36,16 +36,21 @@ var NAVTREE =
       [ "Exercises", "md_docs_2cpp00.html#autotoc_md9", null ],
       [ "Resources", "md_docs_2cpp00.html#autotoc_md10", null ]
     ] ],
+    [ "CPP01_Module", "md_docs_2cpp01.html", [
+      [ "Exercises", "md_docs_2cpp01.html#autotoc_md12", null ],
+      [ "Resources", "md_docs_2cpp01.html#autotoc_md14", null ]
+    ] ],
     [ "staticrypt", "md_docs_2staticrypt.html", [
-      [ "URL", "md_docs_2staticrypt.html#autotoc_md15", null ]
+      [ "URL", "md_docs_2staticrypt.html#autotoc_md19", null ]
     ] ],
     [ "EX00 Megaphone", "md_docs_2subjects_2cpp00__ex00.html", null ],
     [ "EX01 My Awesome PhoneBook", "md_docs_2subjects_2cpp00__ex01.html", [
-      [ "Subject", "md_docs_2subjects_2cpp00__ex01.html#autotoc_md18", null ]
+      [ "Subject", "md_docs_2subjects_2cpp00__ex01.html#autotoc_md22", null ]
     ] ],
     [ "EX02 The Job Of Your Dreams", "md_docs_2subjects_2cpp00__ex02.html", [
-      [ "Subject", "md_docs_2subjects_2cpp00__ex02.html#autotoc_md20", null ]
+      [ "Subject", "md_docs_2subjects_2cpp00__ex02.html#autotoc_md24", null ]
     ] ],
+    [ "EX00 BraiiiiiiinnnzzzZ", "md_docs_2subjects_2cpp01__ex00.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
