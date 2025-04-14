@@ -1,24 +1,37 @@
-# EX01 Moar brainz!
+# EX00 BraiiiiiiinnnzzzZ
 
-Exercise 01 : "Moar brainz!"
+Exercise : "BraiiiiiiinnnzzzZ"
 
 ## Subject
 
-Turn-in directory : ex01/
+Title : BraiiiiiiinnnzzzZ
 
-Files to turn in : Makefile, main.cpp, Zombie.{h, hpp}, Zombie.cpp, zombieHorde.cpp
+Turn-in directory : ex00/
+
+Files to turn in : Makefile, main.cpp, Zombie.{h, hpp}, Zombie.cpp, newZombie.cpp, randomChump.cpp
 
 Forbidden functions : None
 
-Time to create a **horde of Zombies!**
+First, implement a **Zombie** class. It has a private string attribute **name**. Add a member function **`void announce( void )`**; to the Zombie class. Zombies announce themselves as follows:
 
-Implement the following function in the appropriate file:
+```
+<name>: BraiiiiiiinnnzzzZ...
+```
 
-`Zombie* zombieHorde( int N, std::string name );`
+Do not print the angle brackets (< and >). For a zombie named Foo, the message would be:
 
-It must allocate N Zombie objects in a single allocation. Then, it must initialize the zombies, giving each of them the name passed as a parameter. The function returns a pointer to the first zombie.
+```
+Foo: BraiiiiiiinnnzzzZ...
+```
 
-Implement your own tests to ensure that your zombieHorde() function works as expected. Try calling announce() for each of the zombies.
+Then, implement the following two functions:
 
-Do not forget to use delete to deallocate all the zombies and check for memory
-leaks.
+* `Zombie* newZombie( std::string name );`
+> This function creates a zombie, names it, and returns it so you can use it outside of the function scope.
+
+* `void randomChump( std::string name );`
+> This function creates a zombie, names it, and makes it announce itself.
+
+Now, what is the actual point of the exercise? You have to determine in which case it is better to allocate zombies on the stack or the heap.
+
+Zombies must be destroyed when you no longer need them. The destructor must print a message with the name of the zombie for debugging purposes.
