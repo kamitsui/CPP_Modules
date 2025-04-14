@@ -1,9 +1,11 @@
 # CPP01_Module
 
+メモリ割り当て、メンバへのポインタ, 参照と`switch`文
+
 ## Exercises
 
 - [Exercise 00](docs/subjects/cpp01_ex00.md)
-> 
+> メモリ管理とオブジェクトのライフサイクル
 
 
 ---

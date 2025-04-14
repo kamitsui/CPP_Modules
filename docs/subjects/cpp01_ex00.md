@@ -1,23 +1,28 @@
 # EX00 BraiiiiiiinnnzzzZ
 
+Exercise : "BraiiiiiiinnnzzzZ"
+
+## Subject
+
 Title : BraiiiiiiinnnzzzZ
 
 Turn-in directory : ex00/
 
-Files to turn in : Makefile, main.cpp, Zombie.{h, hpp}, Zombie.cpp,
-newZombie.cpp, randomChump.cpp
+Files to turn in : Makefile, main.cpp, Zombie.{h, hpp}, Zombie.cpp, newZombie.cpp, randomChump.cpp
 
 Forbidden functions : None
 
-First, implement a Zombie class. It has a private string attribute name.
-Add a member function void announce( void ); to the Zombie class. Zombies
-announce themselves as follows:
+First, implement a **Zombie** class. It has a private string attribute **name**. Add a member function **`void announce( void )`**; to the Zombie class. Zombies announce themselves as follows:
 
+```
 <name>: BraiiiiiiinnnzzzZ...
+```
 
 Do not print the angle brackets (< and >). For a zombie named Foo, the message would be:
 
+```
 Foo: BraiiiiiiinnnzzzZ...
+```
 
 Then, implement the following two functions:
 

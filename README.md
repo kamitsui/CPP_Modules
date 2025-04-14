@@ -1,8 +1,12 @@
-# Overview
+# CPP Modules
+
+## モジュールごとに学ぶこと。
 
 C++ Module 00
 > 名前空間、クラス、メンバ変数、stdioストリーム、初期化リスト、stacic、const、その他基本的なもの
 
+C++ Module 01
+> メモリ割り当て、メンバへのポインタ, 参照と`switch`文
 
 ---
 
@@ -24,7 +28,7 @@ C++ Module 00
 
 * GitHub - 
 [CPP00](https://github.com/kamitsui/cpp00)
-[CPP01](),
+[CPP01](https://github.com/kamitsui/cpp01),
 [CPP02](),
 [CPP03](),
 [CPP04](),

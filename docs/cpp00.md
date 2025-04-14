@@ -1,5 +1,7 @@
 # CPP00_Module
 
+名前空間、クラス、メンバ変数、stdioストリーム、初期化リスト、stacic、const、その他基本的なもの
+
 ## Exercises
 
 - [Exercise 00](docs/subjects/cpp00_ex00.md)
@@ -10,6 +12,8 @@
 > クラス`Account`を設計して、銀行口座の操作をシミュレートするプログラム。
 > 
 > 実装する機能：口座作成、入金、引き出し、残高確認など
+>
+> intraのresourceからダウンロードしたファイル(`Account.hpp`, `test.cpp`, `19920104_091532.log`)をヒントにプログラムを完成させる課題。
 
 ## Resources
 

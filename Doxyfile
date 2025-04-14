@@ -1047,7 +1047,9 @@ FILE_PATTERNS          = *.c \
 						 *.zsh \
 						 *.mk \
 						 *.sh \
-						 *.cub
+						 *.cub \
+						 \
+						 *.log
 
 # The RECURSIVE tag can be used to specify whether or not subdirectories should
 # be searched for input files as well.
