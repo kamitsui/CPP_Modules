@@ -42,7 +42,7 @@ DOXYFILE_ENCODING      = UTF-8
 # title of most generated pages and in a few other places.
 # The default value is: My Project.
 
-PROJECT_NAME           = "CPP00"
+PROJECT_NAME           = "CPP Modules"
 
 # The PROJECT_NUMBER tag can be used to enter a project or revision number. This
 # could be handy for archiving the generated documentation or if some version
@@ -119,7 +119,7 @@ ALLOW_UNICODE_NAMES    = NO
 # Swedish, Turkish, Ukrainian and Vietnamese.
 # The default value is: English.
 
-OUTPUT_LANGUAGE        = English, Japanese
+OUTPUT_LANGUAGE        = Japanese
 
 # If the BRIEF_MEMBER_DESC tag is set to YES, doxygen will include brief member
 # descriptions after the members that are listed in the file and class
@@ -1343,7 +1343,9 @@ HTML_FILE_EXTENSION    = .html
 # of the possible markers and block names see the documentation.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_HEADER            =
+HTML_HEADER            = 
+#HTML_HEADER            = ./doxygen-awesome-css/doxygen-custom/header.html
+#HTML_HEADER            = ./header.html
 
 # The HTML_FOOTER tag can be used to specify a user-defined HTML footer for each
 # generated HTML page. If the tag is left blank doxygen will generate a standard
@@ -1383,8 +1385,8 @@ HTML_STYLESHEET        =
 # documentation.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_EXTRA_STYLESHEET  = ./doxygen-awesome-css/doxygen-awesome.css
-#HTML_EXTRA_STYLESHEET  = docs/doxygen-awesome-css/doxygen-awesome.css
+HTML_EXTRA_STYLESHEET  = ./doxygen-awesome-css/doxygen-awesome.css \
+                         ./doxygen-awesome-css/doxygen-awesome-sidebar-only.css
 
 # The HTML_EXTRA_FILES tag can be used to specify one or more extra images or
 # other source files which should be copied to the HTML output directory. Note
@@ -1394,8 +1396,12 @@ HTML_EXTRA_STYLESHEET  = ./doxygen-awesome-css/doxygen-awesome.css
 # files will be copied as-is; there are no commands or markers available.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_EXTRA_FILES       = ./doxygen-awesome-css/doxygen-awesome-darkmode-toggle.js
-#HTML_EXTRA_FILES       = docs/doxygen-awesome-css/doxygen-awesome-darkmode-toggle.js
+HTML_EXTRA_FILES       = ./doxygen-awesome-css/doxygen-awesome-darkmode-toggle.js \
+				         ./doxygen-awesome-css/doxygen-awesome-fragment-copy-button.js \
+                         ./doxygen-awesome-css/doxygen-awesome-interactive-toc.js \
+                         ./doxygen-awesome-css/doxygen-awesome-paragraph-link.js \
+                         ./doxygen-awesome-css/doxygen-awesome-tabs.js \
+                         ./doxygen-awesome-css/doxygen-custom/toggle-alternative-theme.js
 
 # The HTML_COLORSTYLE tag can be used to specify if the generated HTML output
 # should be rendered with a dark or light theme.
