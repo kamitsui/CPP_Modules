@@ -7,9 +7,6 @@
 [submodule "cpp_getting_start"]
 	path = cpp_getting_start
 	url = git@github.com:kamitsui/cpp_getting_start.git
-[submodule "cpp01"]
-	path = cpp01
-	url = git@github.com:kamitsui/cpp01.git
 [submodule "cpp0x_base"]
 	path = cpp0x_base
 	url = git@github.com:kamitsui/cpp0x_base.git
