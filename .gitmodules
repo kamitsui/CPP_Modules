@@ -10,3 +10,6 @@
 [submodule "cpp0x_base"]
 	path = cpp0x_base
 	url = git@github.com:kamitsui/cpp0x_base.git
+[submodule "cpp01"]
+	path = cpp01
+	url = git@github.com:kamitsui/cpp01.git
