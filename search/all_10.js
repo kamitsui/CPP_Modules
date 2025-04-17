@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['your_20dreams_0',['EX02 The Job Of Your Dreams',['../md_docs_2subjects_2cpp00__ex02.html',1,'']]]
+  ['resources_0',['resources',['../md_docs_2cpp00.html#autotoc_md10',1,'Resources'],['../md_docs_2cpp01.html#autotoc_md14',1,'Resources'],['../md_docs_2cpp0x.html#autotoc_md18',1,'Resources']]]
 ];

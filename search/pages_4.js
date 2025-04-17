@@ -1,8 +1,6 @@
 var searchData=
 [
-  ['ex00_20braiiiiiiinnnzzzz_0',['EX00 BraiiiiiiinnnzzzZ',['../md_docs_2subjects_2cpp01__ex00.html',1,'']]],
-  ['ex00_20megaphone_1',['EX00 Megaphone',['../md_docs_2subjects_2cpp00__ex00.html',1,'']]],
-  ['ex01_20moar_20brainz_2',['EX01 Moar brainz!',['../md_docs_2subjects_2cpp01__ex01.html',1,'']]],
-  ['ex01_20my_20awesome_20phonebook_3',['EX01 My Awesome PhoneBook',['../md_docs_2subjects_2cpp00__ex01.html',1,'']]],
-  ['ex02_20the_20job_20of_20your_20dreams_4',['EX02 The Job Of Your Dreams',['../md_docs_2subjects_2cpp00__ex02.html',1,'']]]
+  ['cpp00_5fmodule_0',['CPP00_Module',['../md_docs_2cpp00.html',1,'']]],
+  ['cpp01_5fmodule_1',['CPP01_Module',['../md_docs_2cpp01.html',1,'']]],
+  ['cpp0x_5fmodule_2',['CPP0x_Module',['../md_docs_2cpp0x.html',1,'']]]
 ];

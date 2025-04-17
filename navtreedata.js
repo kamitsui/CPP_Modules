@@ -60,6 +60,18 @@ var NAVTREE =
     [ "EX01 Moar brainz!", "md_docs_2subjects_2cpp01__ex01.html", [
       [ "Subject", "md_docs_2subjects_2cpp01__ex01.html#autotoc_md32", null ]
     ] ],
+    [ "EX02 HI THIS IS BRAIN", "md_docs_2subjects_2cpp01__ex02.html", [
+      [ "Subject", "md_docs_2subjects_2cpp01__ex02.html#autotoc_md34", null ]
+    ] ],
+    [ "EX03 Unnecessary violence", "md_docs_2subjects_2cpp01__ex03.html", [
+      [ "Subject", "md_docs_2subjects_2cpp01__ex03.html#autotoc_md36", null ]
+    ] ],
+    [ "EX04 Sed is for losers", "md_docs_2subjects_2cpp01__ex04.html", [
+      [ "Subject", "md_docs_2subjects_2cpp01__ex04.html#autotoc_md38", null ]
+    ] ],
+    [ "EX04 Harl 2.0", "md_docs_2subjects_2cpp01__ex05.html", [
+      [ "Subject", "md_docs_2subjects_2cpp01__ex05.html#autotoc_md40", null ]
+    ] ],
     [ "クラス", "annotated.html", [
       [ "クラス一覧", "annotated.html", "annotated_dup" ],
       [ "クラス索引", "classes.html", null ],

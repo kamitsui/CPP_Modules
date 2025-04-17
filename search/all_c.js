@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['resources_0',['resources',['../md_docs_2cpp00.html#autotoc_md10',1,'Resources'],['../md_docs_2cpp01.html#autotoc_md14',1,'Resources'],['../md_docs_2cpp0x.html#autotoc_md18',1,'Resources']]]
+  ['learning_0',['Other Learning',['../index.html#autotoc_md21',1,'']]],
+  ['links_1',['Project Links',['../md_cpp00_2README.html#autotoc_md7',1,'']]],
+  ['losers_2',['EX04 Sed is for losers',['../md_docs_2subjects_2cpp01__ex04.html',1,'']]]
 ];

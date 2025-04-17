@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['of_20your_20dreams_0',['EX02 The Job Of Your Dreams',['../md_docs_2subjects_2cpp00__ex02.html',1,'']]],
-  ['other_20learning_1',['Other Learning',['../index.html#autotoc_md21',1,'']]],
-  ['overview_2',['overview',['../md_cpp00_2README.html',1,'Overview'],['../index.html#autotoc_md19',1,'Overview']]]
+  ['is_20brain_0',['EX02 HI THIS IS BRAIN',['../md_docs_2subjects_2cpp01__ex02.html',1,'']]],
+  ['is_20for_20losers_1',['EX04 Sed is for losers',['../md_docs_2subjects_2cpp01__ex04.html',1,'']]],
+  ['isempty_2',['isEmpty',['../classContact.html#a0e323abf764c0c5c13f5c3c80069a3a1',1,'Contact']]]
 ];
