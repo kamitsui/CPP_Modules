@@ -1,4 +1,4 @@
-# EX04 Harl 2.0
+# EX05 Harl 2.0
 
 Exercise 05 : Harl 2.0
 
@@ -24,3 +24,18 @@ Do you know Harl? We all do, don’t we? In case you don’t, find below the kin
 
 * "ERROR" level: These messages indicate that an unrecoverable error has occurred. This is usually a critical issue that requires manual intervention.
 > Example: "This is unacceptable! I want to speak to the manager now."
+
+You are going to automate Harl. It won’t be difficult since he always says the same things. You have to create a Harl class with the following private member functions:
+
+* `void debug( void );`
+* `void info( void );`
+* `void warning( void );`
+* `void error( void );`
+
+Harl also has a public member function that calls the four member functions above depending on the level passed as a parameter:
+
+`void complain( std::string level );`
+
+The goal of this exercise is to use pointers to member functions. This is not a suggestion. Harl has to complain without using a forest of if/else if/else. He doesn’t think twice!
+
+Create and turn in tests to show that Harl complains a lot. You can use the examples of comments listed above in the subject or choose to use comments of your own.
