@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>CPP Modules: MainPage</title>
+<title>CPP Modules: README</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -16,6 +16,11 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
@@ -27,9 +32,21 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">CPP Modules
+   <div id="projectname">CPP Modules<span id="projectnumber">&#160;1.0</span>
    </div>
   </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
  </tr>
  </tbody>
 </table>
@@ -41,17 +58,6 @@
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
-<script type="text/javascript" src="menudata.js"></script>
-<script type="text/javascript" src="menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('',true,false,'search.php','検索');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -91,11 +97,12 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">MainPage </div></div>
+  <div class="headertitle"><div class="title">README </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="mainpage"></a> </p>
-<h1><a class="anchor" id="autotoc_md19"></a>
+<div class="textblock"><p><a class="anchor" id="mainpage"></a> このリポジトリは、<a href="https://kamitsui.github.io/CPP_Modules/">github.io</a>でドキュメント公開するためのリポジトリです。</p>
+<p>公開ドキュメントのリポジトリは <a href="https://github.com/kamitsui/CPP_Modules">github.com/kamitsui/CPP_Modules</a>にあります。</p>
+<h1><a class="anchor" id="autotoc_md11"></a>
 Overview</h1>
 <p>CPP Modules は、C++らしさを学ぶの課題です。</p>
 <p>オブジェクト指向のプログラミングについて概念を理解して、C++98の機能を使ってプログラミングします。</p>
@@ -103,32 +110,62 @@ Overview</h1>
 <p>ただし、いくつか制限があります。</p>
 <dl class="section note"><dt>覚え書き</dt><dd><code>No Containers(vetor/list/map/and so forth), and No Algorithms(&lt;algorithm&gt; header)</code> <br  />
  詳細はsubjectを参照。</dd></dl>
-<h1><a class="anchor" id="autotoc_md20"></a>
-C++ Modules</h1>
-<ul>
-<li><a class="el" href="md_docs_2cpp00.html">CPP00</a> <blockquote class="doxtable">
-<p>&zwj;名前空間、クラス、メンバ変数、stdioストリーム、初期化リスト、stacic、const、その他基本的なもの </p>
+<h1><a class="anchor" id="autotoc_md12"></a>
+C++ Modules Configuration</h1>
+<p>C++ Module 00 </p><blockquote class="doxtable">
+<p>&zwj;名前空間、クラス、メンバ変数、stdioストリーム、初期化リスト、stacic、const、その他基本的なもの</p>
+<p>Link : <a href="https://projects.intra.42.fr/cpp-module-00/kamitsui">intra</a>, <a href="https://github.com/kamitsui/cpp00">Github</a>, [Document Page]() </p>
 </blockquote>
-- <a class="el" href="md_docs_2cpp01.html">CPP01</a> <blockquote class="doxtable">
-<p>&zwj;メモリ割り当て、メンバへのポインタ, 参照と<code>switch</code>文 </p>
+<p>C++ Module 01 </p><blockquote class="doxtable">
+<p>&zwj;メモリ割り当て、メンバへのポインタ, 参照と<code>switch</code>文</p>
+<p>Link : <a href="https://projects.intra.42.fr/cpp-module-01/kamitsui">intra</a>, <a href="https://github.com/kamitsui/cpp01">Github</a>, <a href="https://kamitsui.github.io/cpp01/">Document Page</a> </p>
 </blockquote>
-- [CPP02]() <blockquote class="doxtable">
-<p>&zwj; </p>
+<p>C++ Module 02 </p><blockquote class="doxtable">
+<p>&zwj;クラスのより深い機能（コンストラクタ、デストラクタ、コピーコンストラクタなど）を扱います。</p>
+<p>Link : <a href="https://projects.intra.42.fr/cpp-module-02/kamitsui">intra</a>, [Github](), [Document Page]() </p>
 </blockquote>
-- ...</li>
-<li><a class="el" href="md_docs_2cpp0x.html">CPP0X</a> <blockquote class="doxtable">
-<p>&zwj; </p>
+<p>C++ Module 03 </p><blockquote class="doxtable">
+<p>&zwj;継承とポリモーフィズムについて学習します。</p>
+<p>Link : <a href="https://projects.intra.42.fr/cpp-module-03/kamitsui">intra</a>, [Github](), [Document Page]() </p>
 </blockquote>
-</li>
-</ul>
-<h1><a class="anchor" id="autotoc_md21"></a>
-Other Learning</h1>
-<ul>
-<li><a class="el" href="md_docs_2staticrypt.html">Staticrypt</a> <blockquote class="doxtable">
-<p>&zwj;htmlファイルにJavaScriptコードを埋め込み、パスワードロックするツール </p>
+<p>C++ Module 04 </p><blockquote class="doxtable">
+<p>&zwj;テンプレートについて学びます。</p>
+<p>Link : <a href="https://projects.intra.42.fr/cpp-module-04/kamitsui">intra</a>, [Github](), [Document Page]() </p>
 </blockquote>
-</li>
-</ul>
+<p>C++ Module 05 </p><blockquote class="doxtable">
+<p>&zwj;</p>
+<p>Link : <a href="https://projects.intra.42.fr/cpp-module-05/kamitsui">intra</a>, [Github](), [Document Page]() </p>
+</blockquote>
+<p>C++ Module 06 </p><blockquote class="doxtable">
+<p>&zwj;</p>
+<p>Link : <a href="https://projects.intra.42.fr/cpp-module-06/kamitsui">intra</a>, [Github](), [Document Page]() </p>
+</blockquote>
+<p>C++ Module 07 </p><blockquote class="doxtable">
+<p>&zwj;</p>
+<p>Link : <a href="https://projects.intra.42.fr/cpp-module-07/kamitsui">intra</a>, [Github](), [Document Page]() </p>
+</blockquote>
+<p>C++ Module 08 </p><blockquote class="doxtable">
+<p>&zwj;例外処理について扱います。</p>
+<p>Link : <a href="https://projects.intra.42.fr/cpp-module-08/kamitsui">intra</a>, [Github](), [Document Page]() </p>
+</blockquote>
+<p>C++ Module 09 </p><blockquote class="doxtable">
+<p>&zwj;コンテナとアルゴリズム（STL）の基本的な使い方を学びます。</p>
+<p>Link : <a href="https://projects.intra.42.fr/cpp-module-09/kamitsui">intra</a>, [Github](), [Document Page]() </p>
+</blockquote>
+<h1><a class="anchor" id="autotoc_md13"></a>
+Other</h1>
+<p>C++ Getting Start </p><blockquote class="doxtable">
+<p>&zwj;練習用のリポジトリ</p>
+<p>Link : <a href="https://github.com/kamitsui/cpp_getting_start">github.com/kamitsui/cpp_getting_start</a> </p>
+</blockquote>
+<p>cpp0x_base </p><blockquote class="doxtable">
+<p>&zwj;C++ Module のリポジトリ作成するためのテンプレートリポジトリ Link : <a href="https://github.com/kamitsui/cpp0x_base">github.com/kamitsui/cpp0x_base</a> </p>
+</blockquote>
+<p>Staticryptについて </p><blockquote class="doxtable">
+<p>&zwj;htmlファイルにJavaScriptコードを埋め込み、パスワードロックするツール</p>
+<p>もしSubjectのページをパスワード保護したい場合に使えます。</p>
+<p><a class="el" href="md_docs_2staticrypt.html">Staticrypt</a> </p>
+</blockquote>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->

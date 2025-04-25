@@ -16,6 +16,11 @@
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(document).ready(function() { init_search(); });
+/* @license-end */
+</script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
 <link href="doxygen-awesome-sidebar-only.css" rel="stylesheet" type="text/css"/>
@@ -27,9 +32,21 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">CPP Modules
+   <div id="projectname">CPP Modules<span id="projectnumber">&#160;1.0</span>
    </div>
   </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="検索" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
  </tr>
  </tbody>
 </table>
@@ -41,17 +58,6 @@
 var searchBox = new SearchBox("searchBox", "search/",'.html');
 /* @license-end */
 </script>
-<script type="text/javascript" src="menudata.js"></script>
-<script type="text/javascript" src="menu.js"></script>
-<script type="text/javascript">
-/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function() {
-  initMenu('',true,false,'search.php','検索');
-  $(document).ready(function() { init_search(); });
-});
-/* @license-end */
-</script>
-<div id="main-nav"></div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -94,24 +100,24 @@ $(document).ready(function(){initNavTree('md_docs_2cpp00.html',''); initResizabl
   <div class="headertitle"><div class="title">CPP00_Module</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="autotoc_md8"></a> 名前空間、クラス、メンバ変数、stdioストリーム、初期化リスト、stacic、const、その他基本的なもの</p>
-<h1><a class="anchor" id="autotoc_md9"></a>
+<div class="textblock"><p><a class="anchor" id="autotoc_md0"></a> 名前空間、クラス、メンバ変数、stdioストリーム、初期化リスト、stacic、const、その他基本的なもの</p>
+<h1><a class="anchor" id="autotoc_md1"></a>
 Exercises</h1>
 <ul>
-<li><a class="el" href="md_docs_2subjects_2cpp00__ex00.html">Exercise 00</a> <blockquote class="doxtable">
+<li>Exercise 00 <blockquote class="doxtable">
 <p>&zwj;コマンドライン引数の文字列を大文字<code>std::toupper()</code>で出力するプログラム。 </p>
 </blockquote>
-- <a class="el" href="md_docs_2subjects_2cpp00__ex01.html">Exercise 01</a> <blockquote class="doxtable">
-<p>&zwj;電話帳<code><a class="el" href="classPhoneBook.html" title="Defines the PhoneBook class.">PhoneBook</a></code>と連絡先<code><a class="el" href="classContact.html" title="Defines the Contact class.">Contact</a></code>のクラスを設計して、<code>ADD</code>と<code>SEARCH</code>と<code>EXIT</code>の機能を実装する。（MAX８件登録可） </p>
+- Exercise 01 <blockquote class="doxtable">
+<p>&zwj;電話帳<code>PhoneBook</code>と連絡先<code>Contact</code>のクラスを設計して、<code>ADD</code>と<code>SEARCH</code>と<code>EXIT</code>の機能を実装する。（MAX８件登録可） </p>
 </blockquote>
-- <a class="el" href="md_docs_2subjects_2cpp00__ex02.html">Exercise 02</a> <blockquote class="doxtable">
-<p>&zwj;クラス<code><a class="el" href="classAccount.html">Account</a></code>を設計して、銀行口座の操作をシミュレートするプログラム。</p>
+- Exercise 02 <blockquote class="doxtable">
+<p>&zwj;クラス<code>Account</code>を設計して、銀行口座の操作をシミュレートするプログラム。</p>
 <p>実装する機能：口座作成、入金、引き出し、残高確認など</p>
-<p>intraのresourceからダウンロードしたファイル(<code><a class="el" href="Account_8hpp_source.html">Account.hpp</a></code>, <code>test.cpp</code>, <code><a class="el" href="19920104__091532_8log_source.html">19920104_091532.log</a></code>)をヒントにプログラムを完成させる課題。 </p>
+<p>intraのresourceからダウンロードしたファイル(<code>Account.hpp</code>, <code>test.cpp</code>, <code>19920104_091532.log</code>)をヒントにプログラムを完成させる課題。 </p>
 </blockquote>
 </li>
 </ul>
-<h1><a class="anchor" id="autotoc_md10"></a>
+<h1><a class="anchor" id="autotoc_md2"></a>
 Resources</h1>
 <ul>
 <li>Subject.pdf <a href="https://drive.google.com/file/d/1bHgO-yX59L8gTJXajzJ-n9pYi3qowqCV/view?usp=drive_link">en</a>/ <a href="https://drive.google.com/file/d/19VoENEpsWAJKqaQf1aPqD8vSSXvwqrdQ/view?usp=drive_link">ja</a> </li>

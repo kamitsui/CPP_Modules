@@ -1,27 +1,18 @@
 var indexSectionsWithContent =
 {
-  0: "02abcdefghijlmoprstuvy",
-  1: "acp",
-  2: "cp",
-  3: "acgips",
-  4: "02abcdefhijlmopstuvy"
+  0: "cemorsu",
+  1: "crs"
 };
 
 var indexSectionNames =
 {
   0: "all",
-  1: "classes",
-  2: "files",
-  3: "functions",
-  4: "pages"
+  1: "pages"
 };
 
 var indexSectionLabels =
 {
   0: "全て",
-  1: "クラス",
-  2: "ファイル",
-  3: "関数",
-  4: "ページ"
+  1: "ページ"
 };
 

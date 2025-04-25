@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['2_200_0',['EX04 Harl 2.0',['../md_docs_2subjects_2cpp01__ex05.html',1,'']]]
+  ['exercises_0',['exercises',['../md_docs_2cpp00.html#autotoc_md1',1,'Exercises'],['../md_docs_2cpp01.html#autotoc_md4',1,'Exercises'],['../md_docs_2cpp0x.html#autotoc_md8',1,'Exercises']]]
 ];
