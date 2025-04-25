@@ -1,4 +1,8 @@
-# MainPage {#mainpage}
+# README {#mainpage}
+
+このリポジトリは、[github.io](https://kamitsui.github.io/CPP_Modules/)でドキュメント公開するためのリポジトリです。
+
+公開ドキュメントのリポジトリは [github.com/kamitsui/CPP_Modules](https://github.com/kamitsui/CPP_Modules)にあります。
 
 ## Overview
 
@@ -15,20 +19,92 @@ C言語の用に標準ライブラリなどの関数を再実装するわけで�
 <br>
 詳細はsubjectを参照。
 
-## C++ Modules
+## C++ Modules Configuration
 
-- [CPP00](cpp00.md)
+C++ Module 00
 > 名前空間、クラス、メンバ変数、stdioストリーム、初期化リスト、stacic、const、その他基本的なもの
-- [CPP01](cpp01.md)
+>
+> Link : [intra](https://projects.intra.42.fr/cpp-module-00/kamitsui),
+> [Github](https://github.com/kamitsui/cpp00),
+> [Document Page]()
+
+C++ Module 01
 > メモリ割り当て、メンバへのポインタ, 参照と`switch`文
-- [CPP02]()
-> 
-- ...
-- [CPP0X](cpp0x.md)
-> 
+>
+> Link : [intra](https://projects.intra.42.fr/cpp-module-01/kamitsui),
+> [Github](https://github.com/kamitsui/cpp01),
+> [Document Page](https://kamitsui.github.io/cpp01/)
 
-## Other Learning
+C++ Module 02
+> クラスのより深い機能（コンストラクタ、デストラクタ、コピーコンストラクタなど）を扱います。
+>
+> Link : [intra](https://projects.intra.42.fr/cpp-module-02/kamitsui),
+> [Github](),
+> [Document Page]()
 
-* [Staticrypt](staticrypt.md)
+C++ Module 03
+> 継承とポリモーフィズムについて学習します。
+>
+> Link : [intra](https://projects.intra.42.fr/cpp-module-03/kamitsui),
+> [Github](),
+> [Document Page]()
+
+C++ Module 04
+> テンプレートについて学びます。
+>
+> Link : [intra](https://projects.intra.42.fr/cpp-module-04/kamitsui),
+> [Github](),
+> [Document Page]()
+
+C++ Module 05
+> 
+>
+> Link : [intra](https://projects.intra.42.fr/cpp-module-05/kamitsui),
+> [Github](),
+> [Document Page]()
+
+C++ Module 06
+> 
+>
+> Link : [intra](https://projects.intra.42.fr/cpp-module-06/kamitsui),
+> [Github](),
+> [Document Page]()
+
+C++ Module 07
+> 
+>
+> Link : [intra](https://projects.intra.42.fr/cpp-module-07/kamitsui),
+> [Github](),
+> [Document Page]()
+
+C++ Module 08
+> 例外処理について扱います。
+>
+> Link : [intra](https://projects.intra.42.fr/cpp-module-08/kamitsui),
+> [Github](),
+> [Document Page]()
+
+C++ Module 09
+> コンテナとアルゴリズム（STL）の基本的な使い方を学びます。
+>
+> Link : [intra](https://projects.intra.42.fr/cpp-module-09/kamitsui),
+> [Github](),
+> [Document Page]()
+
+## Other
+
+C++ Getting Start
+> 練習用のリポジトリ
+>
+> Link : [github.com/kamitsui/cpp_getting_start](https://github.com/kamitsui/cpp_getting_start)
+
+cpp0x_base
+> C++ Module のリポジトリ作成するためのテンプレートリポジトリ
+> Link : [github.com/kamitsui/cpp0x_base](https://github.com/kamitsui/cpp0x_base)
+
+Staticryptについて
 > htmlファイルにJavaScriptコードを埋め込み、パスワードロックするツール
-
+>
+> もしSubjectのページをパスワード保護したい場合に使えます。
+>
+> [Staticrypt](staticrypt.md)
