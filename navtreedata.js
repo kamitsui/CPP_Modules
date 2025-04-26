@@ -39,7 +39,7 @@ var NAVTREE =
       [ "Resources", "md_docs_2cpp0x.html#autotoc_md10", null ]
     ] ],
     [ "staticrypt", "md_docs_2staticrypt.html", [
-      [ "URL", "md_docs_2staticrypt.html#autotoc_md15", null ]
+      [ "URL", "md_docs_2staticrypt.html#autotoc_md16", null ]
     ] ]
   ] ]
 ];

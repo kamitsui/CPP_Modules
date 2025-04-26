@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['url_0',['URL',['../md_docs_2staticrypt.html#autotoc_md15',1,'']]]
+  ['staticrypt_0',['staticrypt',['../md_docs_2staticrypt.html',1,'']]]
 ];

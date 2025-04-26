@@ -5,6 +5,7 @@ var NAVTREEINDEX0 =
 "index.html#autotoc_md11":[0,0],
 "index.html#autotoc_md12":[0,1],
 "index.html#autotoc_md13":[0,2],
+"index.html#autotoc_md14":[0,3],
 "md_docs_2cpp00.html":[1],
 "md_docs_2cpp00.html#autotoc_md1":[1,0],
 "md_docs_2cpp00.html#autotoc_md2":[1,1],
@@ -15,6 +16,6 @@ var NAVTREEINDEX0 =
 "md_docs_2cpp0x.html#autotoc_md10":[3,1],
 "md_docs_2cpp0x.html#autotoc_md8":[3,0],
 "md_docs_2staticrypt.html":[4],
-"md_docs_2staticrypt.html#autotoc_md15":[4,0],
+"md_docs_2staticrypt.html#autotoc_md16":[4,0],
 "pages.html":[]
 };
