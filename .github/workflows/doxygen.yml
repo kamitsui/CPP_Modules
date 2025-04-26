@@ -3,7 +3,7 @@ name: Doxygen Docs
 on:
   push:
     branches:
-      - main
+      - docs
 
 permissions:
   contents: write
@@ -18,19 +18,22 @@ jobs:
         with:
           submodules: false  # don't clone submodules, because submodules is private repository
 
-      - name: Clone Private Repository with using PAT
-        env:
-          PAT: ${{ secrets.GH_PAT }} # PAT subcribed in Secrets
+      - name: Clone doxygen-awesome-css
         run: |
-          git clone https://x-access-token:${{ secrets.GH_PAT }}@github.com/kamitsui/cpp00.git
-          git clone https://x-access-token:${{ secrets.GH_PAT }}@github.com/kamitsui/cpp_getting_start.git
           git clone https://github.com/jothepro/doxygen-awesome-css.git
+          #- name: Clone Private Repository with using PAT
+          #  env:
+          #    PAT: ${{ secrets.GH_PAT }} # PAT subcribed in Secrets
+          #  run: |
+          #    git clone https://x-access-token:${{ secrets.GH_PAT }}@github.com/kamitsui/cpp00.git
+          #    git clone https://x-access-token:${{ secrets.GH_PAT }}@github.com/kamitsui/cpp_getting_start.git
+          #    git clone https://github.com/jothepro/doxygen-awesome-css.git
       
-      - name: Use Cloned Repo
-        run: |
-          ls
-          cd cpp00
-          ls -la
+          #- name: Use Cloned Repo
+          #  run: |
+          #    ls
+          #    cd cpp00
+          #    ls -la
 
 
       - name: Install Doxygen
@@ -38,22 +41,10 @@ jobs:
           sudo apt update
           sudo apt-get install -y doxygen graphviz rsync
 
-          #- name: Configure Doxygen with Doxygen Awesome CSS
-          #  run: |
-          # Ensure the CSS theme is properly linked
-          #cp docs/doxygen-awesome-css/doxygen-awesome.css .
-          #cp docs/doxygen-awesome-css/doxygen-awesome-sidebar-only.css .
-          #cp docs/doxygen-awesome-css/doxygen-awesome-darkmode-toggle.js .
-
-          # Modify the Doxyfile to use the theme
-          #sed -i 's|HTML_EXTRA_STYLESHEET.*|HTML_EXTRA_STYLESHEET = doxygen-awesome.css doxygen-awesome-sidebar-only.css|' Doxyfile
-          #sed -i 's|HTML_EXTRA_FILES.*|HTML_EXTRA_FILES = doxygen-awesome-darkmode-toggle.js|' Doxyfile
-          #
-          ## Ensure OUTPUT_DIRECTORY is set to 'html' for deployment consistency
-          #sed -i 's|^OUTPUT_DIRECTORY.*|OUTPUT_DIRECTORY = ./|' Doxyfile
-
       - name: Generate Documentation
-        run: doxygen Doxyfile
+        run: |
+          doxygen --version
+          doxygen Doxyfile
 
       - name: Deploy to GitHub Pages
         if: github.actor != 'nektos/act' # Skip deployment locally
