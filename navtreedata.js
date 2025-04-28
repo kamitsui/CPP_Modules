@@ -26,20 +26,8 @@ var NAVTREE =
 [
   [ "CPP Modules", "index.html", [
     [ "README", "index.html", "index" ],
-    [ "CPP00_Module", "md_docs_2cpp00.html", [
-      [ "Exercises", "md_docs_2cpp00.html#autotoc_md1", null ],
-      [ "Resources", "md_docs_2cpp00.html#autotoc_md2", null ]
-    ] ],
-    [ "CPP01_Module", "md_docs_2cpp01.html", [
-      [ "Exercises", "md_docs_2cpp01.html#autotoc_md4", null ],
-      [ "Resources", "md_docs_2cpp01.html#autotoc_md6", null ]
-    ] ],
-    [ "CPP0x_Module", "md_docs_2cpp0x.html", [
-      [ "Exercises", "md_docs_2cpp0x.html#autotoc_md8", null ],
-      [ "Resources", "md_docs_2cpp0x.html#autotoc_md10", null ]
-    ] ],
     [ "staticrypt", "md_docs_2staticrypt.html", [
-      [ "URL", "md_docs_2staticrypt.html#autotoc_md16", null ]
+      [ "URL", "md_docs_2staticrypt.html#autotoc_md5", null ]
     ] ]
   ] ]
 ];

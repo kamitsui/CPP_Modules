@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['readme_0',['README',['../index.html',1,'']]]
+  ['staticrypt_0',['staticrypt',['../md_docs_2staticrypt.html',1,'']]]
 ];
