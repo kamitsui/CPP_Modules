@@ -16,3 +16,6 @@
 [submodule "cpp02"]
 	path = cpp02
 	url = git@github.com:kamitsui/cpp02.git
+[submodule "cpp_module_tester"]
+	path = cpp_module_tester
+	url = git@github.com:kamitsui/cpp_module_tester.git
