@@ -1,4 +1,4 @@
-# README {#mainpage}
+# CPP Modules {#mainpage}
 
 このリポジトリは、[github.io](https://kamitsui.github.io/CPP_Modules/)でドキュメント公開するためのリポジトリです。
 
@@ -23,7 +23,7 @@ C言語の用に標準ライブラリなどの関数を再実装するわけで�
 
 | CPP00 | CPP01 | CPP02 | CPP03 | CPP04 |
 |:---:|:---:|:---:|:---:|:---:|
-| ![success](docs/images/score_80.png) <br>2025/04/22 ~ 04/19 | ![success](docs/images/score_90.png) <br>2025/04/19 ~ 04/26 | ![success](docs/images/in_progress.png) <br>2025/04/26 ~ | ![success](docs/images/not_allowed.png) <br>2025/MM/DD ~ MM/DD | ![success](docs/images/not_allowed.png) <br>2025/MM/DD ~ MM/DD |
+| ![success](docs/images/score_80.png) <br>2025/04/22 ~ 04/19 | ![success](docs/images/score_90.png) <br>2025/04/19 ~ 04/26 | ![success](docs/images/score_100.png) <br>2025/04/26 ~ 05/07 | ![success](docs/images/not_allowed.png) <br>2025/MM/DD ~ MM/DD | ![success](docs/images/not_allowed.png) <br>2025/MM/DD ~ MM/DD |
 
 | CPP05 | CPP06 | CPP07 | CPP08 | CPP09 |
 |:---:|:---:|:---:|:---:|:---:|
@@ -56,8 +56,8 @@ C++ Module 03
 > 継承とポリモーフィズムについて学習します。
 >
 > Link : [intra](https://projects.intra.42.fr/cpp-module-03/kamitsui),
-> [Github](),
-> [Document Page]()
+> [Github](https://github.com/kamitsui/cpp03),
+> [Document Page](https://kamitsui.github.io/cpp03/)
 
 C++ Module 04
 > テンプレートについて学びます。
@@ -110,11 +110,17 @@ C++ Getting Start
 
 cpp0x_base
 > C++ Module のリポジトリ作成するためのテンプレートリポジトリ
+>
 > Link : [github.com/kamitsui/cpp0x_base](https://github.com/kamitsui/cpp0x_base)
+
+cpp_module_tester
+> CPP Modules に関する自作のテストケースをまとめるリポジトリです。
+>
+> Link : [github.com/kamitsui/cpp0x_base](https://github.com/kamitsui/cpp_module_tester)
 
 Staticryptについて
 > htmlファイルにJavaScriptコードを埋め込み、パスワードロックするツール
 >
-> もしSubjectのページをパスワード保護したい場合に使えます。
+> もしSubjectのページをパスワード保護したい場合に使えますが、今は使っていません。
 >
 > [Staticrypt](staticrypt.md)
