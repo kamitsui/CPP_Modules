@@ -53,6 +53,10 @@ var searchData=
   ['regex_5fscanner_2etcc_50',['regex_scanner.tcc',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00662.html',1,'']]],
   ['requires_5fhosted_2eh_51',['requires_hosted.h',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00683.html',1,'']]],
   ['resize_5fpolicy_2ehpp_52',['resize_policy.hpp',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01334.html',1,'']]],
-  ['rope_53',['rope',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00980.html',1,'']]],
-  ['ropeimpl_2eh_54',['ropeimpl.h',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01217.html',1,'']]]
+  ['result_5fex00_2elog_53',['result_ex00.log',['https://kamitsui.github.io/cpp02/d3/d6b/result__ex00_8log.html',1,'']]],
+  ['result_5fex01_2elog_54',['result_ex01.log',['https://kamitsui.github.io/cpp02/d0/dbc/result__ex01_8log.html',1,'']]],
+  ['result_5fex02_2elog_55',['result_ex02.log',['https://kamitsui.github.io/cpp02/d8/d93/result__ex02_8log.html',1,'']]],
+  ['result_5fex03_2elog_56',['result_ex03.log',['https://kamitsui.github.io/cpp02/d8/d1a/result__ex03_8log.html',1,'']]],
+  ['rope_57',['rope',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00980.html',1,'']]],
+  ['ropeimpl_2eh_58',['ropeimpl.h',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01217.html',1,'']]]
 ];

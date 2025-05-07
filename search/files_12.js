@@ -13,8 +13,7 @@ var searchData=
   ['unordered_5fset_10',['unordered_set',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00239.html',1,'']]],
   ['unordered_5fset_2eh_11',['unordered_set.h',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00776.html',1,'']]],
   ['update_5ffn_5fimps_2ehpp_12',['update_fn_imps.hpp',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a01520.html',1,'']]],
-  ['useexampleclass_2ecpp_13',['useExampleClass.cpp',['https://kamitsui.github.io/cpp02/d3/d45/useExampleClass_8cpp.html',1,'']]],
-  ['uses_5fallocator_5fargs_2eh_14',['uses_allocator_args.h',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00491.html',1,'']]],
-  ['utility_15',['utility',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00242.html',1,'']]],
-  ['utility_2eh_16',['utility.h',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00494.html',1,'']]]
+  ['uses_5fallocator_5fargs_2eh_13',['uses_allocator_args.h',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00491.html',1,'']]],
+  ['utility_14',['utility',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00242.html',1,'']]],
+  ['utility_2eh_15',['utility.h',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a00494.html',1,'']]]
 ];

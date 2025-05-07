@@ -19,10 +19,9 @@ var searchData=
   ['error_5fcode_16',['error_code',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a03006.html',1,'std']]],
   ['error_5fcondition_17',['error_condition',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a03010.html',1,'std']]],
   ['exact_5ftag_18',['exact_tag',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a09038.html',1,'__gnu_parallel']]],
-  ['example_19',['Example',['https://kamitsui.github.io/cpp02/d2/d31/classExample.html',1,'']]],
-  ['exception_20',['exception',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a04718.html',1,'std']]],
-  ['exception_5fptr_21',['exception_ptr',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a04722.html',1,'std::__unspecified__']]],
-  ['exponential_5fdistribution_22',['exponential_distribution',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05594.html',1,'std']]],
-  ['extent_23',['extent',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a03454.html',1,'std']]],
-  ['extreme_5fvalue_5fdistribution_24',['extreme_value_distribution',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05610.html',1,'std']]]
+  ['exception_19',['exception',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a04718.html',1,'std']]],
+  ['exception_5fptr_20',['exception_ptr',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a04722.html',1,'std::__unspecified__']]],
+  ['exponential_5fdistribution_21',['exponential_distribution',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05594.html',1,'std']]],
+  ['extent_22',['extent',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a03454.html',1,'std']]],
+  ['extreme_5fvalue_5fdistribution_23',['extreme_value_distribution',['http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen/a05610.html',1,'std']]]
 ];

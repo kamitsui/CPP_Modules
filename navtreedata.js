@@ -25,7 +25,10 @@
 var NAVTREE =
 [
   [ "CPP Modules", "index.html", [
-    [ "README", "index.html", "index" ],
+    [ "Overview", "index.html#autotoc_md0", null ],
+    [ "Progress", "index.html#autotoc_md1", null ],
+    [ "C++ Modules Configuration", "index.html#autotoc_md2", null ],
+    [ "Other", "index.html#autotoc_md3", null ],
     [ "staticrypt", "md_docs_2staticrypt.html", [
       [ "URL", "md_docs_2staticrypt.html#autotoc_md5", null ]
     ] ]
