@@ -29,6 +29,12 @@ var NAVTREE =
     [ "Progress", "index.html#autotoc_md1", null ],
     [ "C++ Modules Configuration", "index.html#autotoc_md2", null ],
     [ "Other", "index.html#autotoc_md3", null ],
+    [ "コピー代入演算子でセッター関数を推奨しない理由。", "https://kamitsui.github.io/cpp02/d3/dcf/md_docs_2copyAssignmentOperatorMemo.html", null ],
+    [ "復習（前提の知識）", "https://kamitsui.github.io/cpp03/dd/d64/md_docs_2review.html", null ],
+    [ "Virtual Constructor not allowed", "https://kamitsui.github.io/cpp03/d4/d9d/md_docs_2virtual__constructor.html", null ],
+    [ "クラス継承においてvirtualの役割", "https://kamitsui.github.io/cpp03/d5/d35/md_docs_2virtual__func.html", null ],
+    [ "仮想継承とは (Virtual Inheritance):", "https://kamitsui.github.io/cpp03/de/db7/md_docs_2virtual__inheritance.html", null ],
+    [ "仮想継承の事例", "https://kamitsui.github.io/cpp03/d0/d50/md_docs_2virtual__inheritance__use__case.html", null ],
     [ "staticrypt", "md_docs_2staticrypt.html", [
       [ "URL", "md_docs_2staticrypt.html#autotoc_md5", null ]
     ] ]
@@ -37,7 +43,7 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"index.html"
+"d0/d50/md_docs_2virtual__inheritance__use__case.html"
 ];
 
 var SYNCONMSG = 'クリックで同期表示が無効になります';

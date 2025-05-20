@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['modules_0',['CPP Modules',['../index.html',1,'']]]
+  ['allowed_0',['Virtual Constructor not allowed',['https://kamitsui.github.io/cpp03/d4/d9d/md_docs_2virtual__constructor.html',1,'']]]
 ];
