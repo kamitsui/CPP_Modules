@@ -1,6 +1,11 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
 <tagfile doxygen_version="1.13.2">
   <compound kind="file">
+    <name>copyAssignmentOperatorMemo.md</name>
+    <path>docs/</path>
+    <filename>d2/d38/copyAssignmentOperatorMemo_8md.html</filename>
+  </compound>
+  <compound kind="file">
     <name>index.md</name>
     <path>docs/</path>
     <filename>df/dcf/index_8md.html</filename>
@@ -789,6 +794,11 @@
       <anchor>a2b9198beaf3cab0679c856965831944c</anchor>
       <arglist>() const</arglist>
     </member>
+  </compound>
+  <compound kind="page">
+    <name>md_docs_2copyAssignmentOperatorMemo</name>
+    <title>コピー代入演算子でセッター関数を推奨しない理由。</title>
+    <filename>d3/dcf/md_docs_2copyAssignmentOperatorMemo.html</filename>
   </compound>
   <compound kind="page">
     <name>index</name>

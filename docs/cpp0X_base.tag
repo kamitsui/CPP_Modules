@@ -1,24 +1,24 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
-<tagfile doxygen_version="1.9.1">
+<tagfile doxygen_version="1.13.2">
   <compound kind="file">
     <name>index.md</name>
-    <path>/app/cpp0x_base/docs/</path>
+    <path>docs/</path>
     <filename>df/dcf/index_8md.html</filename>
   </compound>
   <compound kind="file">
     <name>result_ex0X.log</name>
-    <path>/app/cpp0x_base/docs/</path>
+    <path>docs/</path>
     <filename>d5/d00/result__ex0X_8log.html</filename>
   </compound>
   <compound kind="file">
     <name>Example.cpp</name>
-    <path>/app/cpp0x_base/ex0X/</path>
+    <path>ex0X/</path>
     <filename>dc/db8/Example_8cpp.html</filename>
-    <includes id="d3/d1f/Example_8hpp" name="Example.hpp" local="yes" imported="no">Example.hpp</includes>
+    <includes id="d3/d1f/Example_8hpp" name="Example.hpp" local="yes" import="no" module="no" objc="no">Example.hpp</includes>
   </compound>
   <compound kind="file">
     <name>Example.hpp</name>
-    <path>/app/cpp0x_base/ex0X/</path>
+    <path>ex0X/</path>
     <filename>d3/d1f/Example_8hpp.html</filename>
     <class kind="class">Example</class>
     <member kind="function">
@@ -31,9 +31,9 @@
   </compound>
   <compound kind="file">
     <name>main.cpp</name>
-    <path>/app/cpp0x_base/ex0X/</path>
+    <path>ex0X/</path>
     <filename>df/d0a/main_8cpp.html</filename>
-    <includes id="d3/d1f/Example_8hpp" name="Example.hpp" local="yes" imported="no">Example.hpp</includes>
+    <includes id="d3/d1f/Example_8hpp" name="Example.hpp" local="yes" import="no" module="no" objc="no">Example.hpp</includes>
     <member kind="function">
       <type>int</type>
       <name>main</name>
@@ -44,14 +44,14 @@
   </compound>
   <compound kind="file">
     <name>Makefile</name>
-    <path>/app/cpp0x_base/ex0X/</path>
+    <path>ex0X/</path>
     <filename>d9/d65/Makefile.html</filename>
   </compound>
   <compound kind="file">
     <name>useExampleClass.cpp</name>
-    <path>/app/cpp0x_base/ex0X/</path>
+    <path>ex0X/</path>
     <filename>d3/d45/useExampleClass_8cpp.html</filename>
-    <includes id="d3/d1f/Example_8hpp" name="Example.hpp" local="yes" imported="no">Example.hpp</includes>
+    <includes id="d3/d1f/Example_8hpp" name="Example.hpp" local="yes" import="no" module="no" objc="no">Example.hpp</includes>
     <member kind="function">
       <type>void</type>
       <name>useExampleClass</name>
@@ -103,6 +103,6 @@
     <name>index</name>
     <title>C++ Module 0X</title>
     <filename>index.html</filename>
-    <docanchor file="index.html">mainpage</docanchor>
+    <docanchor file="index.html" title="C++ Module 0X">mainpage</docanchor>
   </compound>
 </tagfile>
