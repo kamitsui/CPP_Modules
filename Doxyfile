@@ -2530,10 +2530,12 @@ SKIP_FUNCTION_MACROS   = YES
 # the path). If a tag file is not located in the directory in which Doxygen is
 # run, you must also specify the path to the tagfile here.
 
-TAGFILES = docs/libstdc++.tag="http://gcc.gnu.org/onlinedocs/libstdc++/latest-doxygen" \
+TAGFILES = docs/cppreference-doxygen-web.tag.xml="https://en.cppreference.com/w/" \
            docs/cpp00.tag=https://kamitsui.github.io/cpp00/ \
            docs/cpp01.tag=https://kamitsui.github.io/cpp01/ \
-           docs/cpp02.tag=https://kamitsui.github.io/cpp02/
+           docs/cpp02.tag=https://kamitsui.github.io/cpp02/ \
+           docs/cpp03.tag=https://kamitsui.github.io/cpp03/ \
+           docs/cpp04.tag=https://kamitsui.github.io/cpp04/
 
 
 		# When a file name is specified after GENERATE_TAGFILE, Doxygen will create a

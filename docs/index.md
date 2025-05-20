@@ -23,7 +23,7 @@ C言語の用に標準ライブラリなどの関数を再実装するわけで�
 
 | CPP00 | CPP01 | CPP02 | CPP03 | CPP04 |
 |:---:|:---:|:---:|:---:|:---:|
-| ![success](docs/images/score_80.png) <br>2025/04/22 ~ 04/19 | ![success](docs/images/score_90.png) <br>2025/04/19 ~ 04/26 | ![success](docs/images/score_100.png) <br>2025/04/26 ~ 05/07 | ![success](docs/images/not_allowed.png) <br>2025/MM/DD ~ MM/DD | ![success](docs/images/not_allowed.png) <br>2025/MM/DD ~ MM/DD |
+| ![success](docs/images/score_80.png) <br>2025/04/22 ~ 04/19 | ![success](docs/images/score_90.png) <br>2025/04/19 ~ 04/26 | ![success](docs/images/score_100.png) <br>2025/04/26 ~ 05/07 | ![success](docs/images/score_100.png) <br>2025/05/07 ~ 05/15 | ![success](docs/images/in_progress.png) <br>2025/05/15 ~ current |
 
 | CPP05 | CPP06 | CPP07 | CPP08 | CPP09 |
 |:---:|:---:|:---:|:---:|:---:|
@@ -53,18 +53,18 @@ C++ Module 02
 > [Document Page](https://kamitsui.github.io/cpp02/)
 
 C++ Module 03
-> 継承とポリモーフィズムについて学習します。
+> 多重継承による問題と、仮想継承の仕組みを利用した改善方法を学習します。
 >
 > Link : [intra](https://projects.intra.42.fr/cpp-module-03/kamitsui),
 > [Github](https://github.com/kamitsui/cpp03),
 > [Document Page](https://kamitsui.github.io/cpp03/)
 
 C++ Module 04
-> テンプレートについて学びます。
+> 仮想継承、ポリモーフィズム、抽象化クラス、インターフェース。
 >
 > Link : [intra](https://projects.intra.42.fr/cpp-module-04/kamitsui),
-> [Github](),
-> [Document Page]()
+> [Github](https://github.com/kamitsui/cpp04),
+> [Document Page](https://kamitsui.github.io/cpp04/)
 
 C++ Module 05
 > 
