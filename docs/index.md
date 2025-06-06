@@ -23,7 +23,7 @@ C言語の用に標準ライブラリなどの関数を再実装するわけで�
 
 | CPP00 | CPP01 | CPP02 | CPP03 | CPP04 |
 |:---:|:---:|:---:|:---:|:---:|
-| ![success](docs/images/score_80.png) <br>2025/04/22 ~ 04/19 | ![success](docs/images/score_90.png) <br>2025/04/19 ~ 04/26 | ![success](docs/images/score_100.png) <br>2025/04/26 ~ 05/07 | ![success](docs/images/score_100.png) <br>2025/05/07 ~ 05/15 | ![success](docs/images/in_progress.png) <br>2025/05/15 ~ current |
+| ![success](docs/images/score_80.png) <br>2025/04/22 ~ 04/19 | ![success](docs/images/score_90.png) <br>2025/04/19 ~ 04/26 | ![success](docs/images/score_100.png) <br>2025/04/26 ~ 05/07 | ![success](docs/images/score_100.png) <br>2025/05/07 ~ 05/15 | ![success](docs/images/score_100.png) <br>2025/05/15 ~ 06/06 |
 
 | CPP05 | CPP06 | CPP07 | CPP08 | CPP09 |
 |:---:|:---:|:---:|:---:|:---:|
