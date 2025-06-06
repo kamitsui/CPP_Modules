@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['zombie_0',['zombie',['https://kamitsui.github.io/cpp01/classZombie.html',1,'Zombie'],['https://kamitsui.github.io/cpp01/classZombie.html#a08e20d5470a17eddfe757812e400f2e9',1,'Zombie::Zombie()'],['https://kamitsui.github.io/cpp01/classZombie.html#a5b74e734b47631aeb00ff12b2568f762',1,'Zombie::Zombie(std::string name)'],['https://kamitsui.github.io/cpp01/classZombie.html#a08e20d5470a17eddfe757812e400f2e9',1,'Zombie::Zombie()'],['https://kamitsui.github.io/cpp01/classZombie.html#a5b74e734b47631aeb00ff12b2568f762',1,'Zombie::Zombie(std::string name)']]],
-  ['zombie_2ecpp_1',['zombie.cpp',['https://kamitsui.github.io/cpp01/ex00_2Zombie_8cpp.html',1,'(大域名前空間)'],['https://kamitsui.github.io/cpp01/ex01_2Zombie_8cpp.html',1,'(大域名前空間)']]],
-  ['zombie_2ehpp_2',['zombie.hpp',['https://kamitsui.github.io/cpp01/ex00_2Zombie_8hpp.html',1,'(大域名前空間)'],['https://kamitsui.github.io/cpp01/ex01_2Zombie_8hpp.html',1,'(大域名前空間)']]],
-  ['zombiehorde_2ecpp_3',['zombieHorde.cpp',['https://kamitsui.github.io/cpp01/zombieHorde_8cpp.html',1,'']]]
+  ['virtual_20constructor_20not_20allowed_0',['Virtual Constructor not allowed',['https://kamitsui.github.io/cpp03/d4/d9d/md_docs_2virtual__constructor.html',1,'']]],
+  ['virtual_20inheritance_20_3a_1',['仮想継承とは (Virtual Inheritance):',['https://kamitsui.github.io/cpp03/de/db7/md_docs_2virtual__inheritance.html',1,'']]],
+  ['virtual_5fconstructor_2emd_2',['virtual_constructor.md',['https://kamitsui.github.io/cpp03/d0/d36/virtual__constructor_8md.html',1,'']]],
+  ['virtual_5ffunc_2emd_3',['virtual_func.md',['https://kamitsui.github.io/cpp03/d8/df6/virtual__func_8md.html',1,'']]],
+  ['virtual_5finheritance_2emd_4',['virtual_inheritance.md',['https://kamitsui.github.io/cpp03/d7/d14/virtual__inheritance_8md.html',1,'']]],
+  ['virtual_5finheritance_5fuse_5fcase_2emd_5',['virtual_inheritance_use_case.md',['https://kamitsui.github.io/cpp03/d4/da3/virtual__inheritance__use__case_8md.html',1,'']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['staticrypt_0',['staticrypt',['../md_docs_2staticrypt.html',1,'']]]
+  ['modules_0',['CPP Modules',['../index.html',1,'']]]
 ];

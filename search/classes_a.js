@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['zombie_0',['Zombie',['https://kamitsui.github.io/cpp01/classZombie.html',1,'']]]
+  ['scavtrap_0',['ScavTrap',['https://kamitsui.github.io/cpp03/dc/dab/classScavTrap.html',1,'']]],
+  ['scopedpointer_1',['ScopedPointer',['https://kamitsui.github.io/cpp04/df/d8a/classScopedPointer.html',1,'']]]
 ];

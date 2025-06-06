@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['復習（前提の知識）_0',['復習（前提の知識）',['https://kamitsui.github.io/cpp03/dd/d64/md_docs_2review.html',1,'']]]
+  ['の事例_0',['Deep copy の事例',['https://kamitsui.github.io/cpp04/d7/d9f/md_docs_2deep__copy__usecase.html',1,'']]]
 ];

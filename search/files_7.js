@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['index_2emd_0',['index.md',['https://kamitsui.github.io/cpp00/df/dcf/index_8md.html',1,'(大域名前空間)'],['https://kamitsui.github.io/cpp02/df/dcf/index_8md.html',1,'(大域名前空間)'],['https://kamitsui.github.io/cpp03/df/dcf/index_8md.html',1,'(大域名前空間)'],['https://kamitsui.github.io/cpp04/df/dcf/index_8md.html',1,'(大域名前空間)']]]
+  ['logger_2ecpp_0',['Logger.cpp',['https://kamitsui.github.io/cpp04/d9/df5/Logger_8cpp.html',1,'']]],
+  ['logger_2ehpp_1',['Logger.hpp',['https://kamitsui.github.io/cpp04/d9/d11/Logger_8hpp.html',1,'']]]
 ];

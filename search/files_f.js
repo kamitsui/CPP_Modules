@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['virtual_5fconstructor_2emd_0',['virtual_constructor.md',['https://kamitsui.github.io/cpp03/d0/d36/virtual__constructor_8md.html',1,'']]],
-  ['virtual_5ffunc_2emd_1',['virtual_func.md',['https://kamitsui.github.io/cpp03/d8/df6/virtual__func_8md.html',1,'']]],
-  ['virtual_5finheritance_2emd_2',['virtual_inheritance.md',['https://kamitsui.github.io/cpp03/d7/d14/virtual__inheritance_8md.html',1,'']]],
-  ['virtual_5finheritance_5fuse_5fcase_2emd_3',['virtual_inheritance_use_case.md',['https://kamitsui.github.io/cpp03/d4/da3/virtual__inheritance__use__case_8md.html',1,'']]]
+  ['weapon_2ecpp_0',['Weapon.cpp',['https://kamitsui.github.io/cpp01/Weapon_8cpp.html',1,'']]],
+  ['weapon_2ehpp_1',['Weapon.hpp',['https://kamitsui.github.io/cpp01/Weapon_8hpp.html',1,'']]],
+  ['wronganimal_2ecpp_2',['wronganimal.cpp',['https://kamitsui.github.io/cpp04/dd/d67/ex00_2WrongAnimal_8cpp.html',1,'(大域名前空間)'],['https://kamitsui.github.io/cpp04/d8/d39/ex01_2WrongAnimal_8cpp.html',1,'(大域名前空間)'],['https://kamitsui.github.io/cpp04/da/dc8/ex02_2WrongAnimal_8cpp.html',1,'(大域名前空間)']]],
+  ['wronganimal_2ehpp_3',['wronganimal.hpp',['https://kamitsui.github.io/cpp04/da/dba/ex00_2WrongAnimal_8hpp.html',1,'(大域名前空間)'],['https://kamitsui.github.io/cpp04/d5/db8/ex01_2WrongAnimal_8hpp.html',1,'(大域名前空間)'],['https://kamitsui.github.io/cpp04/d2/d6b/ex02_2WrongAnimal_8hpp.html',1,'(大域名前空間)']]],
+  ['wrongcat_2ecpp_4',['wrongcat.cpp',['https://kamitsui.github.io/cpp04/d3/d9f/ex00_2WrongCat_8cpp.html',1,'(大域名前空間)'],['https://kamitsui.github.io/cpp04/d2/d5b/ex01_2WrongCat_8cpp.html',1,'(大域名前空間)'],['https://kamitsui.github.io/cpp04/d2/d3a/ex02_2WrongCat_8cpp.html',1,'(大域名前空間)']]],
+  ['wrongcat_2ehpp_5',['wrongcat.hpp',['https://kamitsui.github.io/cpp04/dc/d95/ex00_2WrongCat_8hpp.html',1,'(大域名前空間)'],['https://kamitsui.github.io/cpp04/d2/d54/ex01_2WrongCat_8hpp.html',1,'(大域名前空間)'],['https://kamitsui.github.io/cpp04/da/de4/ex02_2WrongCat_8hpp.html',1,'(大域名前空間)']]]
 ];
