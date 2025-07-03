@@ -27,7 +27,7 @@ C言語の用に標準ライブラリなどの関数を再実装するわけで�
 
 | CPP05 | CPP06 | CPP07 | CPP08 | CPP09 |
 |:---:|:---:|:---:|:---:|:---:|
-| ![success](docs/images/not_allowed.png) <br>2025/MM/DD ~ MM/DD | ![success](docs/images/not_allowed.png) <br>2025/MM/DD ~ MM/DD | ![success](docs/images/not_allowed.png) <br>2025/MM/DD ~ MM/DD | ![success](docs/images/not_allowed.png) <br>2025/MM/DD ~ MM/DD | ![success](docs/images/not_allowed.png) <br>2025/MM/DD ~ MM/DD |
+| ![success](docs/images/in_progress.png) <br>2025/06/22 ~ MM/DD | ![success](docs/images/not_allowed.png) <br>2025/MM/DD ~ MM/DD | ![success](docs/images/not_allowed.png) <br>2025/MM/DD ~ MM/DD | ![success](docs/images/not_allowed.png) <br>2025/MM/DD ~ MM/DD | ![success](docs/images/not_allowed.png) <br>2025/MM/DD ~ MM/DD |
 
 ## C++ Modules Configuration
 
@@ -67,11 +67,15 @@ C++ Module 04
 > [Document Page](https://kamitsui.github.io/cpp04/)
 
 C++ Module 05
-> 
+> 例外処理（Exception Handling）：`try-catch`, `throw`
+>
+> カスタム例外クラス：`std::exception`
+>
+> 繰り返し： Factory Pattern (再利用可能な設計パターン)
 >
 > Link : [intra](https://projects.intra.42.fr/cpp-module-05/kamitsui),
-> [Github](),
-> [Document Page]()
+> [Github](https://github.com/kamitsui/cpp05),
+> [Document Page](https://kamitsui.github.io/cpp05/)
 
 C++ Module 06
 > 
