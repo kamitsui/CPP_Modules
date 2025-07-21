@@ -27,7 +27,7 @@ C言語の用に標準ライブラリなどの関数を再実装するわけで�
 
 | CPP05 | CPP06 | CPP07 | CPP08 | CPP09 |
 |:---:|:---:|:---:|:---:|:---:|
-| ![image](docs/images/score_100.png) <br>2025/06/22 ~ 7/21 | ![image](docs/images/not_allowed.png) <br>2025/MM/DD ~ MM/DD | ![image](docs/images/not_allowed.png) <br>2025/MM/DD ~ MM/DD | ![image](docs/images/not_allowed.png) <br>2025/MM/DD ~ MM/DD | ![image](docs/images/not_allowed.png) <br>2025/MM/DD ~ MM/DD |
+| ![image](docs/images/score_100.png) <br>2025/06/22 ~ 7/21 | ![image](docs/images/in_progress.png) <br>2025/07/21 ~ MM/DD | ![image](docs/images/not_allowed.png) <br>2025/MM/DD ~ MM/DD | ![image](docs/images/not_allowed.png) <br>2025/MM/DD ~ MM/DD | ![image](docs/images/not_allowed.png) <br>2025/MM/DD ~ MM/DD |
 
 ## C++ Modules Configuration
 
@@ -78,11 +78,11 @@ C++ Module 05
 > [Document Page](https://kamitsui.github.io/cpp05/)
 
 C++ Module 06
-> 
+> キャスト
 >
 > Link : [intra](https://projects.intra.42.fr/cpp-module-06/kamitsui),
-> [Github](),
-> [Document Page]()
+> [Github](https://github.com/kamitsui/cpp06),
+> [Document Page](https://kamitsui.github.io/cpp06/)
 
 C++ Module 07
 > 
