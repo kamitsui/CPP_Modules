@@ -85,11 +85,11 @@ C++ Module 06
 > [Document Page](https://kamitsui.github.io/cpp06/)
 
 C++ Module 07
-> 
+> テンプレート
 >
 > Link : [intra](https://projects.intra.42.fr/cpp-module-07/kamitsui),
-> [Github](),
-> [Document Page]()
+> [Github](https://github.com/kamitsui/cpp07),
+> [Document Page](https://kamitsui.github.io/cpp07/)
 
 C++ Module 08
 > 例外処理について扱います。
