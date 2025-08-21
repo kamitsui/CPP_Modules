@@ -27,7 +27,7 @@ C言語の用に標準ライブラリなどの関数を再実装するわけで�
 
 | CPP05 | CPP06 | CPP07 | CPP08 | CPP09 |
 |:---:|:---:|:---:|:---:|:---:|
-| ![image](docs/images/score_100.png) <br>2025/06/22 ~ 7/21 | ![image](docs/images/in_progress.png) <br>2025/07/21 ~ MM/DD | ![image](docs/images/not_allowed.png) <br>2025/MM/DD ~ MM/DD | ![image](docs/images/not_allowed.png) <br>2025/MM/DD ~ MM/DD | ![image](docs/images/not_allowed.png) <br>2025/MM/DD ~ MM/DD |
+| ![image](docs/images/score_100.png) <br>2025/06/22 ~ 7/21 | ![image](docs/images/score_100.png) <br>2025/07/21 ~ 08/16 | ![image](docs/images/score_100.png) <br>2025/08/16 ~ 08/17 | ![image](docs/images/in_progress.png) <br>2025/08/19 ~ MM/DD | ![image](docs/images/not_allowed.png) <br>2025/08/23 ~ 08/DD |
 
 ## C++ Modules Configuration
 
@@ -92,18 +92,18 @@ C++ Module 07
 > [Document Page](https://kamitsui.github.io/cpp07/)
 
 C++ Module 08
-> 例外処理について扱います。
+> テンプレート、コンテナ、アルゴリズム、イテレーター
 >
 > Link : [intra](https://projects.intra.42.fr/cpp-module-08/kamitsui),
-> [Github](),
-> [Document Page]()
+> [Github](https://github.com/kamitsui/cpp08),
+> [Document Page](https://kamitsui.github.io/cpp08/)
 
 C++ Module 09
 > コンテナとアルゴリズム（STL）の基本的な使い方を学びます。
 >
 > Link : [intra](https://projects.intra.42.fr/cpp-module-09/kamitsui),
-> [Github](),
-> [Document Page]()
+> [Github](https://github.com/kamitsui/cpp09),
+> [Document Page](https://kamitsui.github.io/cpp09/)
 
 ## Other
 
@@ -122,9 +122,13 @@ cpp_module_tester
 >
 > Link : [github.com/kamitsui/cpp0x_base](https://github.com/kamitsui/cpp_module_tester)
 
+<!--\>
+
 Staticryptについて
 > htmlファイルにJavaScriptコードを埋め込み、パスワードロックするツール
 >
 > もしSubjectのページをパスワード保護したい場合に使えますが、今は使っていません。
 >
 > [Staticrypt](staticrypt.md)
+
+<\!-->
