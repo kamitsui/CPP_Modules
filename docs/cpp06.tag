@@ -6,6 +6,11 @@
     <filename>df/dcf/index_8md.html</filename>
   </compound>
   <compound kind="file">
+    <name>review.md</name>
+    <path>docs/</path>
+    <filename>d8/dae/review_8md.html</filename>
+  </compound>
+  <compound kind="file">
     <name>snippets_ex01.inc</name>
     <path>docs/</path>
     <filename>d7/d77/snippets__ex01_8inc.html</filename>
@@ -221,6 +226,11 @@
       <anchor>afac4df6bd85d1e292df33e1a42068237</anchor>
       <arglist>(uintptr_t raw)</arglist>
     </member>
+  </compound>
+  <compound kind="page">
+    <name>md_docs_2review</name>
+    <title>Ex00: Conversion of scalar types</title>
+    <filename>dd/d64/md_docs_2review.html</filename>
   </compound>
   <compound kind="page">
     <name>md_docs_2thumbnail</name>
