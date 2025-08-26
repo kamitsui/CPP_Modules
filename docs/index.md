@@ -27,7 +27,7 @@ C言語の用に標準ライブラリなどの関数を再実装するわけで�
 
 | CPP05 | CPP06 | CPP07 | CPP08 | CPP09 |
 |:---:|:---:|:---:|:---:|:---:|
-| ![image](docs/images/score_100.png) <br>2025/06/22 ~ 7/21 | ![image](docs/images/score_100.png) <br>2025/07/21 ~ 08/16 | ![image](docs/images/score_100.png) <br>2025/08/16 ~ 08/17 | ![image](docs/images/in_progress.png) <br>2025/08/19 ~ MM/DD | ![image](docs/images/not_allowed.png) <br>2025/08/23 ~ 08/DD |
+| ![image](docs/images/score_100.png) <br>2025/06/22 ~ 7/21 | ![image](docs/images/score_100.png) <br>2025/07/21 ~ 08/16 | ![image](docs/images/score_100.png) <br>2025/08/16 ~ 08/17 | ![image](docs/images/score_100.png) <br>2025/08/19 ~ 08/23 | ![image](docs/images/in_progress.png) <br>2025/08/23 ~ 08/DD |
 
 ## C++ Modules Configuration
 
@@ -115,7 +115,7 @@ C++ Getting Start
 cpp0x_base
 > C++ Module のリポジトリ作成するためのテンプレートリポジトリ
 >
-> Link : [github.com/kamitsui/cpp0x_base](https://github.com/kamitsui/cpp0x_base)
+> Link : [github.com/kamitsui/cpp0x_base](https://github.com/kamitsui/cpp0x_base), [Page](https://kamitsui.github.io/cpp0x_base/)
 
 cpp_module_tester
 > CPP Modules に関する自作のテストケースをまとめるリポジトリです。
