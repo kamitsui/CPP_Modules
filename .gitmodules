@@ -37,3 +37,6 @@
 [submodule "cpp08"]
 	path = cpp08
 	url = git@github.com:kamitsui/cpp08.git
+[submodule "cpp09"]
+	path = cpp09
+	url = git@github.com:kamitsui/cpp09.git
