@@ -27,7 +27,7 @@ C言語の用に標準ライブラリなどの関数を再実装するわけで�
 
 | CPP05 | CPP06 | CPP07 | CPP08 | CPP09 |
 |:---:|:---:|:---:|:---:|:---:|
-| ![image](docs/images/score_100.png) <br>2025/06/22 ~ 7/21 | ![image](docs/images/score_100.png) <br>2025/07/21 ~ 08/16 | ![image](docs/images/score_100.png) <br>2025/08/16 ~ 08/17 | ![image](docs/images/score_100.png) <br>2025/08/19 ~ 08/23 | ![image](docs/images/in_progress.png) <br>2025/08/23 ~ 08/DD |
+| ![image](docs/images/score_100.png) <br>2025/06/22 ~ 7/21 | ![image](docs/images/score_100.png) <br>2025/07/21 ~ 08/16 | ![image](docs/images/score_100.png) <br>2025/08/16 ~ 08/17 | ![image](docs/images/score_100.png) <br>2025/08/19 ~ 08/23 | ![image](docs/images/score_100.png) <br>2025/08/23 ~ 08/28 |
 
 ## C++ Modules Configuration
 
